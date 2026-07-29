@@ -1,11 +1,11 @@
 {
-  "version": "0.6.1",
-  "nucleo_min": "0.6.0",
-  "hecha_ms": 1785337658356,
-  "notas": "Primera interfaz llegada por el canal de Obsidiant",
+  "version": "0.7.1",
+  "nucleo_min": "0.7.0",
+  "hecha_ms": 1785346479596,
+  "notas": "Salto visual, ola 1: luz, profundidad y tacto en toda la app",
   "archivos": {
-    "assets/index-Br4l2JOd.js": "85bee8597141435bb122ac8e75021bb3e01223e047882b8f50a717f4c995aae9",
-    "assets/index-L3S3omMf.css": "c2ea25a8275b1e7657d08107fb8e34a153203fb185b64617a73d565480e4db28",
-    "index.html": "4731dcbab296f6aef49b52a1a07efccce3d2ff65efa67d812330373cf2edd61d"
+    "assets/index-C7o_t3EU.css": "c28154b327334108e1a4edfc026d2349eaf57941fff8a44f86fab161e475ca13",
+    "assets/index-DZhONw4F.js": "46c7a8d54104324edb1405348844a726efc78ab41731ede5340ebd2300c5e6a2",
+    "index.html": "ebe947d611095db70dd6e1d55e2b1bf8e4911913623291c96cfd86f5d980fa53"
   }
 }
