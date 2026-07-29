@@ -1,11 +1,11 @@
 {
-  "version": "0.8.1",
-  "nucleo_min": "0.8.0",
-  "hecha_ms": 1785348231216,
-  "notas": "Ola visual 2: la cabina, los temas de acento y las caras",
+  "version": "0.9.1",
+  "nucleo_min": "0.9.0",
+  "hecha_ms": 1785349896206,
+  "notas": "Ola visual 3: iconos propios y estados vacios con intencion",
   "archivos": {
-    "assets/index-DOIk4J12.css": "4808f3eee790fbc02c70973e857428a26a9f40b37e3ac7960840cd0742d323f4",
-    "assets/index-Dv1qdxHW.js": "a7001780d3cb9755a8fdc82bacc57441372e330f933de5d77865d6e477a1954e",
-    "index.html": "02527cb636b5142445daf4b5f9fe513a22a046ec3b8e4633ff422dee56598e62"
+    "assets/index-DfX3hhZP.js": "68f9e19c0143ec924dbeaffdd0f0da43df8003fe46aa0d851d59db510f0d8561",
+    "assets/index-DuEmfvYy.css": "7a17583f943de726051f4ad0dd58ff595ce4e8e1a4b8e232a019a7095189fa22",
+    "index.html": "2799ce9adbd7feb6ee4ee6b07a1d372c399b7eb8e390140bd05154170f090dcf"
   }
 }
