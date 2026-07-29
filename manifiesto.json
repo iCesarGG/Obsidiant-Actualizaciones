@@ -1,0 +1,11 @@
+{
+  "version": "0.6.1",
+  "nucleo_min": "0.6.0",
+  "hecha_ms": 1785337658356,
+  "notas": "Primera interfaz llegada por el canal de Obsidiant",
+  "archivos": {
+    "assets/index-Br4l2JOd.js": "85bee8597141435bb122ac8e75021bb3e01223e047882b8f50a717f4c995aae9",
+    "assets/index-L3S3omMf.css": "c2ea25a8275b1e7657d08107fb8e34a153203fb185b64617a73d565480e4db28",
+    "index.html": "4731dcbab296f6aef49b52a1a07efccce3d2ff65efa67d812330373cf2edd61d"
+  }
+}
