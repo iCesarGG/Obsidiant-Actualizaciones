@@ -1,11 +1,12 @@
 {
-  "version": "0.19.0",
-  "nucleo_min": "0.19.0",
-  "hecha_ms": 1785412800000,
-  "notas": "La interfaz del canal va firmada. Desde esta versión, una interfaz sin firma válida no se baja.",
+  "version": "0.21.1",
+  "nucleo_min": "0.21.1",
+  "hecha_ms": 1785431910030,
+  "notas": "La interfaz de la ventana propia: la barra de Obsidiant con sus tres botones, iconos con gestos y paneles con entrada. Pide el núcleo 0.21.1 porque usa sus permisos de ventana.",
   "archivos": {
-    "assets/index-BRuv7tfr.css": "b5cb2f0c00bce8bf2eae47666097a851d8a993647dcb2ad94983c0ecae6a4849",
-    "assets/index-D2JU7NaF.js": "ca77d86890558ad8279841f68f6d261fd5a8b44d38c92d2b5f22034c51fac7d9",
-    "index.html": "404e23e3a3a864c81c0fcd82529c311f1cb26d55ea1a779d47e2fb1530a25c5f"
+    "assets/index-BcuwPulA.js": "1df3b93588b3a2f915056c12e69466908e9418df527c8762fc47dc55f858d239",
+    "assets/index-C8kVSWTj.css": "2e1481a908082a1992b97e37a1aa076ede8213c6251eccc8764c18940bdd2904",
+    "assets/window-Bj2BqR9Y.js": "3052ab81e5d4114f5999de2ea666b8fe0d8062a85915dcf0e622017ab5426527",
+    "index.html": "c59bca7a2e22e54c049f72effc1b9ccf54d944708f5df47f4ada2ddc60b92fe2"
   }
 }

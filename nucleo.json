@@ -1,7 +1,7 @@
 {
-  "version": "0.19.0",
-  "archivo": "Obsidiant_0.19.0_x64-setup.exe",
-  "sha256": "a508541a81e123c07c2c9ae13f11fcac79cbef2c44c93317903fba28c2873408",
-  "bytes": 4331407,
-  "notas": "Ahora las dos mitades van firmadas: el núcleo y también la interfaz. Un canal tomado ya no puede cambiarte ni el programa ni las pantallas."
+  "version": "0.21.1",
+  "archivo": "Obsidiant_0.21.1_x64-setup.exe",
+  "sha256": "d771745e77c1cd7353a3a7d6f6945ee339c9e30212d70de893d512471a33129b",
+  "bytes": 4397881,
+  "notas": "La ventana propia y el pulso vivo: barra de Obsidiant con sus tres botones, iconos con gestos, y las métricas de verdad — el dial lee el NeoForge nuevo, la memoria se compara con tu RAM y la consola ya no se llena de sondas."
 }
