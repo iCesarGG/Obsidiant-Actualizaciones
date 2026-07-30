@@ -1,12 +1,12 @@
 {
-  "version": "0.22.1",
+  "version": "0.23.0",
   "nucleo_min": "0.21.1",
-  "hecha_ms": 1785435596339,
-  "notas": "La ola de la locura, ya con su mando: brasas al color del tema y al ritmo del servidor, los doce iconos pieza a pieza, profundidad de verdad — y «El movimiento» en Ajustes, porque Windows con las animaciones apagadas por rendimiento no decide por Obsidiant.",
+  "hecha_ms": 1785438764980,
+  "notas": "El fuego de verdad: chispas con rastro, pavesas incandescentes y ceniza subiendo desde una bruma encendida, al ritmo del servidor — y el ratón lo remueve al pasar. Grano de película, la línea del puente bajo la barra, titulares que respiran y tarjetas con canto de luz.",
   "archivos": {
-    "assets/index-BiTqxBar.js": "9b5a064dd3d45625fc1a078d47a06155a7f75ecceaa533b76c7f90114733e07d",
-    "assets/index-DqVJwvhI.css": "1fe24b438c691a4829d685036ec41869c5e25f830c65a7b55c082f284eda90a4",
-    "assets/window-BLVOEK4F.js": "0444c40992206ec55c0d073253ab66fed532136e8c3ab0c7a0b11b15d378a157",
-    "index.html": "039161371dd7107c055f0b91280cd015ea0da53d7d6e92e2e3c23ac350a6089e"
+    "assets/index-BgjsbRc1.css": "8d17d3a2a220faf78b5dbed77720a821b7f1149ddc27732456cd62919ab237bd",
+    "assets/index-m5V_lIAe.js": "9e406fb9a9ff859ebcdba3b2bc240e63190da53a0b2601507d0d75d7999a75e8",
+    "assets/window-Db0YH2DP.js": "a3e43b2e3ccd64f234b6c701015bdebc190fbd48d2a6d6dba949bf71b7953966",
+    "index.html": "569befd0f874622b736d0479fab7e3834982e53b1789e7e05d568f536392822a"
   }
 }
