@@ -1,12 +1,12 @@
 {
-  "version": "0.23.0",
+  "version": "0.24.0",
   "nucleo_min": "0.21.1",
-  "hecha_ms": 1785438764980,
-  "notas": "El fuego de verdad: chispas con rastro, pavesas incandescentes y ceniza subiendo desde una bruma encendida, al ritmo del servidor — y el ratón lo remueve al pasar. Grano de película, la línea del puente bajo la barra, titulares que respiran y tarjetas con canto de luz.",
+  "hecha_ms": 1785440120125,
+  "notas": "Fuego con física de verdad: las pavesas se enfrían y cambian de color por temperatura, flotan mientras queman y caen al apagarse, con turbulencia de remolinos, estelas, humo y brillo real — y tu mano mete un vórtice al pasar. Además, Ctrl+K abre la paleta de comandos: escribe «cns» y estás en la consola.",
   "archivos": {
-    "assets/index-BgjsbRc1.css": "8d17d3a2a220faf78b5dbed77720a821b7f1149ddc27732456cd62919ab237bd",
-    "assets/index-m5V_lIAe.js": "9e406fb9a9ff859ebcdba3b2bc240e63190da53a0b2601507d0d75d7999a75e8",
-    "assets/window-Db0YH2DP.js": "a3e43b2e3ccd64f234b6c701015bdebc190fbd48d2a6d6dba949bf71b7953966",
-    "index.html": "569befd0f874622b736d0479fab7e3834982e53b1789e7e05d568f536392822a"
+    "assets/index-BWXLi4T-.js": "c3eea0767810ea2757e3bac42757670fdcd5bca7e7eba0b00c9685494cd250f4",
+    "assets/index-CDSOaDBv.css": "a0ddde5728b72c0326f272cd0570bd37a1345da02c6407f3356a5dcdfad22870",
+    "assets/window-D-b07X_q.js": "3cc38053bf1fd730bbb633ee7ab746bce8fe330fe693126e46b0f762ff47125e",
+    "index.html": "936a6d1f95de7741c353ba9695051b65e9b597b577893a3d8eb545a79304e22c"
   }
 }
