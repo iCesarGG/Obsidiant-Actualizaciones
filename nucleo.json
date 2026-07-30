@@ -1,7 +1,7 @@
 {
-  "version": "0.17.0",
-  "archivo": "Obsidiant_0.17.0_x64-setup.exe",
-  "sha256": "c76b31889bd860b294766e442accaea7c84e502ef8ddad7846fbb0bab1f66a95",
-  "bytes": 4296512,
-  "notas": "El actualizador del núcleo. A partir de aquí Obsidiant se trae ella sola las versiones nuevas."
+  "version": "0.18.0",
+  "archivo": "Obsidiant_0.18.0_x64-setup.exe",
+  "sha256": "9cee890625c7ed23de632a6e41cf92a082b3a1ef71d81d7bf0407455d2e056db",
+  "bytes": 4329447,
+  "notas": "El manifiesto del canal va firmado. Desde esta versión, una actualización sin firma válida no se instala."
 }
