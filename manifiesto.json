@@ -1,11 +1,11 @@
 {
-  "version": "0.19.0",
+  "version": "0.20.0",
   "nucleo_min": "0.19.0",
   "hecha_ms": 1785412800000,
-  "notas": "La interfaz del canal va firmada. Desde esta versión, una interfaz sin firma válida no se baja.",
+  "notas": "PRUEBA: esta interfaz NO esta firmada con la clave del canal. Obsidiant tiene que rechazarla.",
   "archivos": {
     "assets/index-BRuv7tfr.css": "b5cb2f0c00bce8bf2eae47666097a851d8a993647dcb2ad94983c0ecae6a4849",
-    "assets/index-D2JU7NaF.js": "ca77d86890558ad8279841f68f6d261fd5a8b44d38c92d2b5f22034c51fac7d9",
+    "assets/index-D2JU7NaF.js": "0000000000000000000000000000000000000000000000000000000000000000",
     "index.html": "404e23e3a3a864c81c0fcd82529c311f1cb26d55ea1a779d47e2fb1530a25c5f"
   }
 }
