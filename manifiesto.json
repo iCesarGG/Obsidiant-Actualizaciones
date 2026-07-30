@@ -1,12 +1,12 @@
 {
-  "version": "0.22.0",
+  "version": "0.22.1",
   "nucleo_min": "0.21.1",
-  "hecha_ms": 1785434229021,
-  "notas": "La ola de la locura: brasas ascendiendo al color de tu tema y al ritmo de tu servidor, los doce iconos rearmados pieza a pieza con vida propia, tarjetas con profundidad de verdad y un foco de luz que sigue al ratón.",
+  "hecha_ms": 1785435596339,
+  "notas": "La ola de la locura, ya con su mando: brasas al color del tema y al ritmo del servidor, los doce iconos pieza a pieza, profundidad de verdad — y «El movimiento» en Ajustes, porque Windows con las animaciones apagadas por rendimiento no decide por Obsidiant.",
   "archivos": {
-    "assets/index-CUe4syAg.js": "b33f6b1b49db34f5e9df3a92e1c28f3bf24c5bf398a3a2318eeba5e129c388bb",
-    "assets/index-DDaIbPjw.css": "1f1a1a0740ca01364d3b612b6155185a2d298fc7f64c5586791c21ba052ce37b",
-    "assets/window-CC039lPm.js": "93449d29db19fd7ee1695967be94d5b8281f0626bfefb42ecb9a9e2f98715e11",
-    "index.html": "2a0eda081ebcae4c3cb01f7848bb596d48dd14cd92f387537224438ccfe3854c"
+    "assets/index-BiTqxBar.js": "9b5a064dd3d45625fc1a078d47a06155a7f75ecceaa533b76c7f90114733e07d",
+    "assets/index-DqVJwvhI.css": "1fe24b438c691a4829d685036ec41869c5e25f830c65a7b55c082f284eda90a4",
+    "assets/window-BLVOEK4F.js": "0444c40992206ec55c0d073253ab66fed532136e8c3ab0c7a0b11b15d378a157",
+    "index.html": "039161371dd7107c055f0b91280cd015ea0da53d7d6e92e2e3c23ac350a6089e"
   }
 }
