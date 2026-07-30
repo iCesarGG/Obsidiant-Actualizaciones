@@ -1,7 +1,7 @@
 {
-  "version": "0.18.0",
-  "archivo": "Obsidiant_0.18.0_x64-setup.exe",
-  "sha256": "9cee890625c7ed23de632a6e41cf92a082b3a1ef71d81d7bf0407455d2e056db",
-  "bytes": 4329447,
-  "notas": "El manifiesto del canal va firmado. Desde esta versión, una actualización sin firma válida no se instala."
+  "version": "0.19.0",
+  "archivo": "Obsidiant_0.19.0_x64-setup.exe",
+  "sha256": "a508541a81e123c07c2c9ae13f11fcac79cbef2c44c93317903fba28c2873408",
+  "bytes": 4331407,
+  "notas": "Ahora las dos mitades van firmadas: el núcleo y también la interfaz. Un canal tomado ya no puede cambiarte ni el programa ni las pantallas."
 }
