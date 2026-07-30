@@ -1,7 +1,7 @@
 {
-  "version": "0.19.0",
-  "archivo": "Obsidiant_0.19.0_x64-setup.exe",
-  "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "version": "0.18.0",
+  "archivo": "Obsidiant_0.18.0_x64-setup.exe",
+  "sha256": "9cee890625c7ed23de632a6e41cf92a082b3a1ef71d81d7bf0407455d2e056db",
   "bytes": 4329447,
-  "notas": "PRUEBA: este manifiesto NO esta firmado con la clave del canal. Obsidiant tiene que rechazarlo."
+  "notas": "El manifiesto del canal va firmado. Desde esta versión, una actualización sin firma válida no se instala."
 }
