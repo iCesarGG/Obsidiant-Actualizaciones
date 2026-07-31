@@ -1,12 +1,12 @@
 {
-  "version": "0.24.0",
+  "version": "0.25.0",
   "nucleo_min": "0.21.1",
-  "hecha_ms": 1785440120125,
-  "notas": "Fuego con física de verdad: las pavesas se enfrían y cambian de color por temperatura, flotan mientras queman y caen al apagarse, con turbulencia de remolinos, estelas, humo y brillo real — y tu mano mete un vórtice al pasar. Además, Ctrl+K abre la paleta de comandos: escribe «cns» y estás en la consola.",
+  "hecha_ms": 1785457039145,
+  "notas": "Fuera la luz azul del ratón: ahora el puntero irradia calor del color del fuego y te arranca chispas al moverlo rápido. Las cenizas son escamas que voltean, el brillo de cada brasa es de verdad, y hay viñeta. Además: logo tallado con brasa viva dentro, barra de cristal ahumado, cajas con volumen, menú con peso e iconos que ya no se mueven — se comportan.",
   "archivos": {
-    "assets/index-BWXLi4T-.js": "c3eea0767810ea2757e3bac42757670fdcd5bca7e7eba0b00c9685494cd250f4",
-    "assets/index-CDSOaDBv.css": "a0ddde5728b72c0326f272cd0570bd37a1345da02c6407f3356a5dcdfad22870",
-    "assets/window-D-b07X_q.js": "3cc38053bf1fd730bbb633ee7ab746bce8fe330fe693126e46b0f762ff47125e",
-    "index.html": "936a6d1f95de7741c353ba9695051b65e9b597b577893a3d8eb545a79304e22c"
+    "assets/index-D7PucPQz.css": "d63d08fb81281e815db58eb8b669c8207b78d4e8efe24278a71ff50caa5858c3",
+    "assets/index-DoM2oNsL.js": "c80532233d737db8d73a543ca3ad9d57e0ee9dbc42a15acabaa1f727a402a919",
+    "assets/window-IMtlfZ-c.js": "02054508d5c99a793d92abf24ab7dcd8f91962529d2b26a89aa0a46926f8ca16",
+    "index.html": "31aad5ea3c638a8ff768b71635f4011957a7148ecca2a88bab174fe92aa504ef"
   }
 }
