@@ -1,12 +1,12 @@
 {
-  "version": "0.26.0",
-  "nucleo_min": "0.21.1",
-  "hecha_ms": 1785478931559,
-  "notas": "La súper consola: Tab autocompleta comandos y jugadores, ↑↓ recuerdan lo que escribiste, Ctrl+F busca y resalta en el registro, lo irreversible (stop, ban, kill @e…) pide un segundo sí diciendo qué va a pasar, cada error trae su explicación debajo, y un botón copia el registro limpio para pegarlo en Discord.",
+  "version": "0.34.0",
+  "nucleo_min": "0.29.0",
+  "hecha_ms": 1785688193260,
+  "notas": "El vigilante del disco. Obsidiant mira cuanto te queda una vez por hora, aunque no tengas nada abierto, y te dice en semanas lo que eso significa. Cuenta el disco entero y no solo el servidor: si lo que se lo esta comiendo es otra cosa del equipo, tambien lo veras, con su reparto. Y desde la primera medicion avisa si ya no cabe una copia del mundo, que es lo que rompe partidas. Ademas: la historia deja de borrarse sola (un ano cabe entero) y hay una grafica de la caida.",
   "archivos": {
-    "assets/index-CThCzuIk.js": "7f7f2335a8df65b80c24ef3a3d0fe444054d1df5ba1bcc4591730e0fd307e481",
-    "assets/index-CyJyQ0eI.css": "bae674d6eee01a3aa025bdfeb461566447f61ccbf3aa93d777622a7ba2bc03b1",
-    "assets/window-DkD6rHih.js": "3981acbbd13f4ea2e16fb504837a586e5d627c0e688042f61b9f65ee894b7b73",
-    "index.html": "49f25ef7405f3a04b7ddcbeaae57da1f7bf4a9b63de2b763d59482bcf9dfb667"
+    "assets/index-BaWqz1tM.css": "94493b0f7aef31d2046d664c605c15d08c84eaa99dfb39c246b1633aad1468fb",
+    "assets/index-JgyPQXVq.js": "40d6c0ffe1881251f1863d269a313f2c71812153686aa088a17c0bfadd24bfcd",
+    "assets/window-CHT9fNyS.js": "9ba2ea8c86fcadc7f32c144e3ca45ac885cbfb3a6c45024d88fd8cf1bc869ab2",
+    "index.html": "0171ae95fe5eeabe33f4ead02fc92a514521db974f87e17789279ae321fe33e8"
   }
 }

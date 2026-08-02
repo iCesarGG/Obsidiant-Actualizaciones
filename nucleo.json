@@ -1,7 +1,7 @@
 {
-  "version": "0.21.1",
-  "archivo": "Obsidiant_0.21.1_x64-setup.exe",
-  "sha256": "d771745e77c1cd7353a3a7d6f6945ee339c9e30212d70de893d512471a33129b",
-  "bytes": 4397881,
-  "notas": "La ventana propia y el pulso vivo: barra de Obsidiant con sus tres botones, iconos con gestos, y las métricas de verdad — el dial lee el NeoForge nuevo, la memoria se compara con tu RAM y la consola ya no se llena de sondas."
+  "version": "0.29.1",
+  "archivo": "Obsidiant_0.29.1_x64-setup.exe",
+  "sha256": "89203cde011bb779a580b0934c1a27c7bed63602274083cc104a6f45135200eb",
+  "bytes": 4665597,
+  "notas": "El vigilante del disco, y el arreglo que lo hace funcionar de verdad. Obsidiant mira cuanto disco te queda una vez por hora aunque no tengas ningun servidor abierto, cuenta el disco entero en vez de solo la carpeta del servidor, y avisa desde la primera medicion si ya no cabe una copia del mundo."
 }
