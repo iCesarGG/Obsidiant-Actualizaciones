@@ -1,12 +1,12 @@
 {
-    "version":  "0.41.0",
-    "nucleo_min":  "0.37.0",
-    "hecha_ms":  1785794533255,
-    "notas":  "La tarjeta «Por qué se cayó»: cuando el servidor se cae, el panel ya no se queda en «Se cayó» — explica el motivo en español (qué mod falló, si faltó memoria, si el puerto estaba ocupado) y deja la evidencia plegada para quien quiera verla, junto al nombre del crash-report.",
+    "version":  "0.41.1",
+    "nucleo_min":  "0.37.1",
+    "hecha_ms":  1785795864651,
+    "notas":  "Dos retoques: la tarjeta verde del estreno ahora dice el tiempo total de arranque (y aparte cuánto tardó el mundo), y la tarjeta de una caída trae el botón «Copiar para pedir ayuda» — motivo, evidencia y nombre del informe, listos para pegar en el Discord del modpack.",
     "archivos":  {
-                     "assets/index-D-KTBnwr.js":  "344f0a82aafff0828529df55c3f2a5a525e8ed6a9857cd8a321e93574f735f99",
-                     "assets/index-DDj1TzTR.css":  "8d3ce1440f6b3a5a28e197a80b851cd0f1863a643a42749882a3a12152543d4e",
-                     "assets/window-BsGbHsMk.js":  "c9b2c663d9a301920bb0a480f1a2f430f9ce534df22ac9171689510f36327215",
-                     "index.html":  "1c30244d655d28d341073d274bdba05285933d2dea0b90788d0991f74a3ed0f7"
+                     "assets/index-B9QR2bCD.js":  "eb742f16b6f140201213423876c027a92b8027781c66dfe554e386efc6a64c02",
+                     "assets/index-Cd3CH4Mx.css":  "6d7a190a57947646f89cd727f608e75556c8d32152c236870b99dcf882c1cd64",
+                     "assets/window-C6wMXdrj.js":  "f097fb12fe52a33cb5ce55b666c9da90c6ba444fd79254815f36af1a8543c0ed",
+                     "index.html":  "1ede5b51ab7c49871cded8420b9b6fd878f2c9fb1756fa8fbacd514e81539763"
                  }
 }

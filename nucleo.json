@@ -1,7 +1,7 @@
 {
-    "version":  "0.37.0",
-    "archivo":  "Obsidiant_0.37.0_x64-setup.exe",
-    "sha256":  "086d56d9bafc88167b07a2805c80259075a0df530981447b84be34b58ce6bfcd",
-    "bytes":  4799146,
-    "notas":  "La necropsia: al morir el servidor, el núcleo lee la cola de logs/latest.log y el crash-report de la muerte (el que anuncia el propio registro, o el más nuevo) y redacta el porqué. Traduce los fallos de NeoForge al español: mod que falló al cargar, mod de Fabric colado, dependencia que falta, sin memoria, puerto ocupado, watchdog. El aviso de Discord de una caída llega con motivo aunque la consola muera muda. Nombres y primeras líneas, nunca fechas: los relojes de los archivos mienten."
+    "version":  "0.37.1",
+    "archivo":  "Obsidiant_0.37.1_x64-setup.exe",
+    "sha256":  "ff3991eca02c844f361f36914c0c383ea634313e5a2fb7af2da6150d64635447",
+    "bytes":  4795738,
+    "notas":  "El reloj del estreno se para en el veredicto: la vista ya no sigue contando segundos por mirar la tarjeta tarde."
 }
