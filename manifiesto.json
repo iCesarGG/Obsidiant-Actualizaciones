@@ -1,12 +1,12 @@
 {
-    "version":  "0.39.1",
-    "nucleo_min":  "0.35.1",
-    "hecha_ms":  1785781014752,
-    "notas":  "Elegir en que disco viven las copias y los servidores, con el espacio libre de cada uno y una frase que explica para que sirve — y un boton aparte para mover lo que ya hay, que copia, comprueba tamano a tamano y solo entonces borra. Ademas, la barra de arriba dice ahora que version de interfaz estas viendo y si viene del canal o del propio programa.",
+    "version":  "0.40.0",
+    "nucleo_min":  "0.36.2",
+    "hecha_ms":  1785791536768,
+    "notas":  "El estreno: despues de instalar un mod, Obsidiant ofrece arrancar el servidor una vez, leer el registro y decirte si encaja — arranco (y lo vuelve a parar solo), murio (señalando al mod nuevo solo si el registro lo nombra en una linea de error, con boton para retirarlo) o se agoto el tiempo. Ademas, la revision de mods sale con boton de reintentar si falla, y la barra de arriba sigue diciendo que interfaz ves y de donde salio.",
     "archivos":  {
-                     "assets/index-B8ZTOZS8.js":  "395ee0900f0934d8fabc5a1c33468c93a4d360a15d3913e96e437d2cdce57985",
-                     "assets/index-Ca2vbxsA.css":  "bfed40af4663972825689aa91d74048ecff3e1bd2bb15e94cc49bceae140f71a",
-                     "assets/window-8PdipTOR.js":  "2e16307e87d2d5cb9a7ed465fec010e8ee9ff8115669be0bd6f4f52e3f1a2fcf",
-                     "index.html":  "af4e8d569f7062e466966bf401117458fa553ab99ee53535545829ae38d00769"
+                     "assets/index-BipA6pB-.css":  "0901b19a1d8d425180e1f9bf74aed95ae11ca0f635244a9658bfddb39ef3df11",
+                     "assets/index-DW0e6hJ_.js":  "9e49279b052e472fc43575e4569adfa0b279ddf8aae1d65284ca73078e83baf0",
+                     "assets/window-DoQR7Kr6.js":  "f3734204380ec1402b1104dcd6e6f4f84bd115065bbb3082a16100e78177c4ba",
+                     "index.html":  "06e41ed3fc54c292566082f8f127e4d92a9ee92e2e55c98a932ea640662c652b"
                  }
 }
