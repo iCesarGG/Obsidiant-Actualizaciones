@@ -1,12 +1,12 @@
 {
-  "version": "0.38.0",
-  "nucleo_min": "0.33.0",
-  "hecha_ms": 1785721224441,
-  "notas": "Capsulas: el servidor entero, no solo la partida. Guarda los mods con sus versiones exactas, la configuracion, los operadores y con que Java arrancaba — y ahora tambien se pueden revivir en una carpeta nueva, sin tocar el servidor que tengas en marcha. Ademas: modo evento (ajustes temporales que se deshacen solos aunque cierres la app), las copias automaticas pasan a hacer instantaneas en vez de zips de seis gigas, y el vigilante del disco mide una vez por hora y cuenta el disco entero, no solo la carpeta del servidor.",
-  "archivos": {
-    "assets/index-DmsVtW_v.css": "df9c3ad561c4321e12d5792f65d939bd5a51eb7042caba307044ec359b361fda",
-    "assets/index-ynjfDErk.js": "501e13b299bd1c9922836c212cf423017e8052980831c81e551ff5ed0cede023",
-    "assets/window-DrBVtu57.js": "409691bfcdb759f5e5fbbb2f4269cd9983982f9add0eff35a4cbc0e31ecf7615",
-    "index.html": "9aef045d8830182ceca1fb97f2c7a22b7d062c31bf3dcdce1154c1a1223b187d"
-  }
+    "version":  "0.39.1",
+    "nucleo_min":  "0.35.1",
+    "hecha_ms":  1785781014752,
+    "notas":  "Elegir en que disco viven las copias y los servidores, con el espacio libre de cada uno y una frase que explica para que sirve — y un boton aparte para mover lo que ya hay, que copia, comprueba tamano a tamano y solo entonces borra. Ademas, la barra de arriba dice ahora que version de interfaz estas viendo y si viene del canal o del propio programa.",
+    "archivos":  {
+                     "assets/index-B8ZTOZS8.js":  "395ee0900f0934d8fabc5a1c33468c93a4d360a15d3913e96e437d2cdce57985",
+                     "assets/index-Ca2vbxsA.css":  "bfed40af4663972825689aa91d74048ecff3e1bd2bb15e94cc49bceae140f71a",
+                     "assets/window-8PdipTOR.js":  "2e16307e87d2d5cb9a7ed465fec010e8ee9ff8115669be0bd6f4f52e3f1a2fcf",
+                     "index.html":  "af4e8d569f7062e466966bf401117458fa553ab99ee53535545829ae38d00769"
+                 }
 }

@@ -1,0 +1,3 @@
+﻿# El canal sirve BYTES, no texto: lo que se publica tiene que salir
+# identico a lo que se firmo. Ninguna conversion de saltos de linea.
+* -text

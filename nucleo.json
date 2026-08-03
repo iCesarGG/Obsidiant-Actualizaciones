@@ -1,7 +1,7 @@
 {
-  "version": "0.33.0",
-  "archivo": "Obsidiant_0.33.0_x64-setup.exe",
-  "sha256": "915677c577787c2ee7488439007bffcfb7dd609917ffedc3ba105a2a9e68c9b3",
-  "bytes": 4729658,
-  "notas": "Capsulas: guardar el servidor entero —mods con sus versiones exactas, configuracion, operadores y el Java con el que arrancaba— y poder revivirlo en una carpeta nueva dentro de dos anos, sin depender de que el modpack siga publicado. Ademas: modo evento, las copias automaticas pasan a instantaneas, y el vigilante del disco mide solo cada hora."
+    "version":  "0.35.1",
+    "archivo":  "Obsidiant_0.35.1_x64-setup.exe",
+    "sha256":  "4ecc8840cd03d2204e62a85ab91471cd544f5c206b4544f6ff064cc9beb58029",
+    "bytes":  4766117,
+    "notas":  "Dos arreglos que se ven poco y pesan mucho. Las copias automaticas no estaban copiando nada: el programador preguntaba por el mundo a un dato que solo existe mientras tienes un servidor abierto en la aplicacion, asi que con Obsidiant de fondo —que es como se usa— decia «no hay ningun mundo que copiar» con el mundo delante. Y la interfaz recien construida se quedaba tapada por la que hubieras bajado del canal, porque se comparaban las versiones equivocadas: se instalaba, abria, y la pantalla seguia siendo la de antes sin un solo aviso. Ademas: elegir en que disco viven las copias y los servidores."
 }
