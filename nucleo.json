@@ -1,7 +1,7 @@
 {
-  "version": "0.29.1",
-  "archivo": "Obsidiant_0.29.1_x64-setup.exe",
-  "sha256": "89203cde011bb779a580b0934c1a27c7bed63602274083cc104a6f45135200eb",
-  "bytes": 4665597,
-  "notas": "El vigilante del disco, y el arreglo que lo hace funcionar de verdad. Obsidiant mira cuanto disco te queda una vez por hora aunque no tengas ningun servidor abierto, cuenta el disco entero en vez de solo la carpeta del servidor, y avisa desde la primera medicion si ya no cabe una copia del mundo."
+  "version": "0.33.0",
+  "archivo": "Obsidiant_0.33.0_x64-setup.exe",
+  "sha256": "915677c577787c2ee7488439007bffcfb7dd609917ffedc3ba105a2a9e68c9b3",
+  "bytes": 4729658,
+  "notas": "Capsulas: guardar el servidor entero —mods con sus versiones exactas, configuracion, operadores y el Java con el que arrancaba— y poder revivirlo en una carpeta nueva dentro de dos anos, sin depender de que el modpack siga publicado. Ademas: modo evento, las copias automaticas pasan a instantaneas, y el vigilante del disco mide solo cada hora."
 }

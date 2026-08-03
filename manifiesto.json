@@ -1,12 +1,12 @@
 {
-  "version": "0.34.0",
-  "nucleo_min": "0.29.0",
-  "hecha_ms": 1785688193260,
-  "notas": "El vigilante del disco. Obsidiant mira cuanto te queda una vez por hora, aunque no tengas nada abierto, y te dice en semanas lo que eso significa. Cuenta el disco entero y no solo el servidor: si lo que se lo esta comiendo es otra cosa del equipo, tambien lo veras, con su reparto. Y desde la primera medicion avisa si ya no cabe una copia del mundo, que es lo que rompe partidas. Ademas: la historia deja de borrarse sola (un ano cabe entero) y hay una grafica de la caida.",
+  "version": "0.38.0",
+  "nucleo_min": "0.33.0",
+  "hecha_ms": 1785721224441,
+  "notas": "Capsulas: el servidor entero, no solo la partida. Guarda los mods con sus versiones exactas, la configuracion, los operadores y con que Java arrancaba — y ahora tambien se pueden revivir en una carpeta nueva, sin tocar el servidor que tengas en marcha. Ademas: modo evento (ajustes temporales que se deshacen solos aunque cierres la app), las copias automaticas pasan a hacer instantaneas en vez de zips de seis gigas, y el vigilante del disco mide una vez por hora y cuenta el disco entero, no solo la carpeta del servidor.",
   "archivos": {
-    "assets/index-BaWqz1tM.css": "94493b0f7aef31d2046d664c605c15d08c84eaa99dfb39c246b1633aad1468fb",
-    "assets/index-JgyPQXVq.js": "40d6c0ffe1881251f1863d269a313f2c71812153686aa088a17c0bfadd24bfcd",
-    "assets/window-CHT9fNyS.js": "9ba2ea8c86fcadc7f32c144e3ca45ac885cbfb3a6c45024d88fd8cf1bc869ab2",
-    "index.html": "0171ae95fe5eeabe33f4ead02fc92a514521db974f87e17789279ae321fe33e8"
+    "assets/index-DmsVtW_v.css": "df9c3ad561c4321e12d5792f65d939bd5a51eb7042caba307044ec359b361fda",
+    "assets/index-ynjfDErk.js": "501e13b299bd1c9922836c212cf423017e8052980831c81e551ff5ed0cede023",
+    "assets/window-DrBVtu57.js": "409691bfcdb759f5e5fbbb2f4269cd9983982f9add0eff35a4cbc0e31ecf7615",
+    "index.html": "9aef045d8830182ceca1fb97f2c7a22b7d062c31bf3dcdce1154c1a1223b187d"
   }
 }
