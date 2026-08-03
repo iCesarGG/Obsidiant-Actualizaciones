@@ -1,12 +1,12 @@
 {
-    "version":  "0.40.0",
-    "nucleo_min":  "0.36.2",
-    "hecha_ms":  1785791536768,
-    "notas":  "El estreno: despues de instalar un mod, Obsidiant ofrece arrancar el servidor una vez, leer el registro y decirte si encaja — arranco (y lo vuelve a parar solo), murio (señalando al mod nuevo solo si el registro lo nombra en una linea de error, con boton para retirarlo) o se agoto el tiempo. Ademas, la revision de mods sale con boton de reintentar si falla, y la barra de arriba sigue diciendo que interfaz ves y de donde salio.",
+    "version":  "0.41.0",
+    "nucleo_min":  "0.37.0",
+    "hecha_ms":  1785794533255,
+    "notas":  "La tarjeta «Por qué se cayó»: cuando el servidor se cae, el panel ya no se queda en «Se cayó» — explica el motivo en español (qué mod falló, si faltó memoria, si el puerto estaba ocupado) y deja la evidencia plegada para quien quiera verla, junto al nombre del crash-report.",
     "archivos":  {
-                     "assets/index-BipA6pB-.css":  "0901b19a1d8d425180e1f9bf74aed95ae11ca0f635244a9658bfddb39ef3df11",
-                     "assets/index-DW0e6hJ_.js":  "9e49279b052e472fc43575e4569adfa0b279ddf8aae1d65284ca73078e83baf0",
-                     "assets/window-DoQR7Kr6.js":  "f3734204380ec1402b1104dcd6e6f4f84bd115065bbb3082a16100e78177c4ba",
-                     "index.html":  "06e41ed3fc54c292566082f8f127e4d92a9ee92e2e55c98a932ea640662c652b"
+                     "assets/index-D-KTBnwr.js":  "344f0a82aafff0828529df55c3f2a5a525e8ed6a9857cd8a321e93574f735f99",
+                     "assets/index-DDj1TzTR.css":  "8d3ce1440f6b3a5a28e197a80b851cd0f1863a643a42749882a3a12152543d4e",
+                     "assets/window-BsGbHsMk.js":  "c9b2c663d9a301920bb0a480f1a2f430f9ce534df22ac9171689510f36327215",
+                     "index.html":  "1c30244d655d28d341073d274bdba05285933d2dea0b90788d0991f74a3ed0f7"
                  }
 }

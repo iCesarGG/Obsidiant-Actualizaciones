@@ -1,7 +1,7 @@
 {
-    "version":  "0.36.2",
-    "archivo":  "Obsidiant_0.36.2_x64-setup.exe",
-    "sha256":  "3c76ce164de8a2b902f5f3cbd91f7b2cd231a08dbfd217e2f25057ad546d049b",
-    "bytes":  4768607,
-    "notas":  "El estreno de mods por dentro, y dos redes de seguridad que salieron de su primer uso. Uno: el arranque ya no se cree solo a la consola en vivo — si el registrador del servidor muere con lo importante sin decir, Obsidiant lee latest.log igual, asi que se acabo el \"Arrancando\" eterno: una caida en el arranque se detecta sola, se recoge y se avisa. Dos: el config de Geyser que escribe Obsidiant ya no puede salir invalido venga lo que venga en el MOTD (un escape del formato properties dentro del YAML llego a dejar un servidor entero sin arrancar). Y tras una caida, \"Arrancar\" arranca a la primera, sin pedir un \"Parar\" ritual."
+    "version":  "0.37.0",
+    "archivo":  "Obsidiant_0.37.0_x64-setup.exe",
+    "sha256":  "086d56d9bafc88167b07a2805c80259075a0df530981447b84be34b58ce6bfcd",
+    "bytes":  4799146,
+    "notas":  "La necropsia: al morir el servidor, el núcleo lee la cola de logs/latest.log y el crash-report de la muerte (el que anuncia el propio registro, o el más nuevo) y redacta el porqué. Traduce los fallos de NeoForge al español: mod que falló al cargar, mod de Fabric colado, dependencia que falta, sin memoria, puerto ocupado, watchdog. El aviso de Discord de una caída llega con motivo aunque la consola muera muda. Nombres y primeras líneas, nunca fechas: los relojes de los archivos mienten."
 }
