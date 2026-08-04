@@ -1,7 +1,7 @@
 {
-    "version":  "0.42.0",
-    "archivo":  "Obsidiant_0.42.0_x64-setup.exe",
-    "sha256":  "9df6212155720d14e289c81b97de82d7e27303b1ccf1731bf080a58a93c1afe2",
-    "bytes":  4887848,
-    "notas":  "Curar una pieza podrida. Hasta ahora la aplicación sabía detectar que una pieza del almacén estaba corrupta y restaurar se negaba a usarla; con eso ya no se perdía nada en silencio, pero la instantánea quedaba tocada para siempre. No tiene por qué: una pieza es el contenido de un archivo del mundo, y ese archivo a lo mejor sigue vivo y sin cambiar. buscar_remedios mira, para cada huella mala, qué archivos del mundo dice algún índice que la tenían, y calcula la huella del archivo VIVO: el índice propone y el archivo decide. Sin eso, curar sería meter el mundo de hoy dentro de la copia de hace un mes. curar copia del mundo al almacén —nunca al revés—, escribe a un nombre temporal, vuelve a calcular la huella de lo escrito y solo entonces lo pone en su sitio: una cura que no se comprueba no cura, solo cambia una pieza rota por otra y encima apaga el aviso. Ocho pruebas nuevas con piezas podridas de verdad en disco, incluida la vuelta entera: pudrir, detectar, curar, y volver a comprobar a fondo que la bodega está sana."
+    "version":  "0.43.0",
+    "archivo":  "Obsidiant_0.43.0_x64-setup.exe",
+    "sha256":  "4b9b26d8b8494be99334a8dbb3123cce7e8ab15ab5c5af7e893996ce5ebf4764",
+    "bytes":  4892968,
+    "notas":  "Entrada::copias_siguen_el_disco: la otra cara de Entrada::layout, dicha en una frase para que la pantalla pueda enseñarla. A un servidor que montó Obsidiant las copias le viven dentro de su propia carpeta y el ajuste de disco no se las mueve; solo los adoptados lo siguen. Y discos_ver deja de contestar con el ajuste de la aplicación: devuelve la ruta de copias DEL SERVIDOR ABIERTO, sacada de su propio layout, más si ese servidor sigue el ajuste o no y cómo se llama. El origen que se mide para la mudanza también se calcula solo cuando hay algo que mover: medir la carpeta de fábrica de un servidor que no la usa daba un número que no hablaba de nada. Con una prueba que ata la etiqueta a la realidad: si dice que sigue el ajuste, su layout tiene que acabar de verdad bajo el disco elegido."
 }

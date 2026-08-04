@@ -1,12 +1,12 @@
 {
-    "version":  "0.46.1",
-    "nucleo_min":  "0.42.0",
-    "hecha_ms":  1785829495038,
-    "notas":  "Cuando la comprobación a fondo encuentra piezas dañadas, el bloque rojo ya no acaba en \"haz una instantánea nueva\". Si esos archivos siguen en el mundo tal como estaban, lo dice con sus nombres y sus tamaños y ofrece recuperarlas, en verde dentro del rojo: es la parte que hay que ver primero cuando alguien acaba de leer que sus copias están dañadas. Y si el mundo ya cambió, lo dice también, que es la otra mitad de la verdad. Tras curar, el veredicto que se enseña sale de releer el almacén entero, no de tachar de una lista: la única prueba de que una copia está entera es haberla leído.",
+    "version":  "0.47.0",
+    "nucleo_min":  "0.43.0",
+    "hecha_ms":  1785831029124,
+    "notas":  "El selector de disco enseñaba el ajuste de la aplicación estuviera abierto el servidor que estuviera. Delante de uno que montó Obsidiant eso era falso —sus copias viven dentro de su propia carpeta— y encima falso en la pantalla que existe para que nadie pierda de vista dónde están sus copias: la misma clase de mentira que las copias huérfanas. Ahora la cabecera enseña la ruta de este servidor, y cuando no sigue el ajuste se dice por qué y con su nombre. En ese caso desaparecen las dos cosas que no le aplican: el botón de mover lo que ya hay, y la recomendación de elegir otro disco, que puesta ahí se contradecía con la frase de arriba.",
     "archivos":  {
-                     "assets/index-C64rzXkM.js":  "fb89cc75dd3f80a68ab0246668cf87a9b951aa23cffb9e232d092510917d7654",
-                     "assets/index-a2dmExxj.css":  "664ef3ab1911761c489cdfb468d952cb92797ca0e381b2d3a76f8d5ac4c1d030",
-                     "assets/window-BCIUtixe.js":  "b38f429fc2c31bde6fea588d54db06a4545809377ef6ec19145d27fafacf75aa",
-                     "index.html":  "5e98eb36aaffe48c58599a6ae6fea815cf01b7977ccc1dd6e3bdc63ef48b7ec1"
+                     "assets/index-B1b_bWK6.css":  "6e5fa7263031ecef8b30e987478b271489dada79d643632b442a678a3b018fe7",
+                     "assets/index-CHh4gPFs.js":  "7b2b87f7f4541cc4a1a85dd2083bd167c2edd03df07ebd87fcb59a099a100fe2",
+                     "assets/window-DMq92_QA.js":  "a73c1a90177fa5774893c71d53b5984b27467eaa4155cadc3389c93fdb9c5fd3",
+                     "index.html":  "3c14a338f6cd3aa84324fa01e4978956abf42dcfb37498402604b13d5dc266e3"
                  }
 }
