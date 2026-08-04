@@ -1,12 +1,12 @@
 {
-    "version":  "0.45.1",
-    "nucleo_min":  "0.41.1",
-    "hecha_ms":  1785827566115,
-    "notas":  "Una sección nueva en el menú, Caídas, con el historial del servidor. La tarjeta del resumen cuenta la muerte de hoy; esto cuenta la costumbre, que es otra pregunta y se hace en otro momento. Cada fila es una avería y no un informe: dice cuántas veces pasó, entre qué fechas, qué mod señala y por qué, con la evidencia desplegable y los nombres de los informes que la sostienen. Cuando hay más informes de los que se abren, lo dice con su número y avisa de que los recuentos son los de lo leído. El botón de copiar añade lo que solo sabe esta pantalla —cuántas veces y desde cuándo—, que en un Discord de soporte es media respuesta ya dada. Si no hay ninguna caída lo dice con esas palabras, porque un panel vacío y mudo se lee como que algo no funciona.",
+    "version":  "0.46.1",
+    "nucleo_min":  "0.42.0",
+    "hecha_ms":  1785829495038,
+    "notas":  "Cuando la comprobación a fondo encuentra piezas dañadas, el bloque rojo ya no acaba en \"haz una instantánea nueva\". Si esos archivos siguen en el mundo tal como estaban, lo dice con sus nombres y sus tamaños y ofrece recuperarlas, en verde dentro del rojo: es la parte que hay que ver primero cuando alguien acaba de leer que sus copias están dañadas. Y si el mundo ya cambió, lo dice también, que es la otra mitad de la verdad. Tras curar, el veredicto que se enseña sale de releer el almacén entero, no de tachar de una lista: la única prueba de que una copia está entera es haberla leído.",
     "archivos":  {
-                     "assets/index-D3F4mH8T.css":  "f9af58f0540c510f1f853626cf6884df542cc3404d25b337161ce7890e40d7c9",
-                     "assets/index-_4SvytB5.js":  "ea6256d5cf430771e2620254c0e11436e4f4d99bf2377244a497d009e38e78c8",
-                     "assets/window-BkqSKBUJ.js":  "179388932218a90d30222fb7544fa364ce88a95e757ad944c6d0de6f4f1d7615",
-                     "index.html":  "1c11a7fe4ad3316f293f5d52378e387382793504e1bbe4b9e091abdc7e6ee47a"
+                     "assets/index-C64rzXkM.js":  "fb89cc75dd3f80a68ab0246668cf87a9b951aa23cffb9e232d092510917d7654",
+                     "assets/index-a2dmExxj.css":  "664ef3ab1911761c489cdfb468d952cb92797ca0e381b2d3a76f8d5ac4c1d030",
+                     "assets/window-BCIUtixe.js":  "b38f429fc2c31bde6fea588d54db06a4545809377ef6ec19145d27fafacf75aa",
+                     "index.html":  "5e98eb36aaffe48c58599a6ae6fea815cf01b7977ccc1dd6e3bdc63ef48b7ec1"
                  }
 }
