@@ -1,7 +1,7 @@
 {
     "version":  "0.52.0",
-    "nucleo_min":  "0.47.0",
-    "hecha_ms":  1785880359121,
+    "nucleo_min":  "0.48.0",
+    "hecha_ms":  1785883009336,
     "notas":  "El boton de copiar la consola deja de mentir. Copiaba las ultimas 400 lineas en silencio, asi que quien lo pegaba en un Discord de soporte creia estar enseñando su registro y estaba enseñando un trozo elegido por la aplicacion -y quien lo leia no tenia forma de saberlo-. Ahora lo copiado lleva delante una linea que dice que es: \"Obsidiant - consola - las ultimas 400 de 3.128 lineas - filtro: Sin ruido - solo Geyser\". Con eso, quien ayuda sabe si le falta contexto y quien pide ayuda no tiene que acordarse de avisar. Cuando no hay recorte, no se inventa uno: dice cuantas lineas hay y ya. Ademas, el portapapeles que dice que no ya no falla en silencio: antes el .then() no tenia .catch, asi que un rechazo dejaba el boton exactamente igual que un acierto -ni tic, ni error, ni nada-. La fila de \"quien habla\" dice cuantos mods no caben: eran nueve chips y punto, y con 458 mods hablando, quien busca uno concreto y no lo ve concluye que no ha dicho nada. Los filtros y los chips llevan aria-pressed, que es lo que convierte un boton con un borde distinto en un interruptor para quien no ve el borde. Y la consola deja de recalcular de quien es cada linea al pintar: ese dato lo decide ahora el nucleo al leerla y viaja con ella, asi que elegir un mod deja de costar un analisis de las 3.000 lineas del registro por cada linea nueva que llega.",
     "archivos":  {
                      "assets/index-BM9DVhqg.js":  "1fd5d30486c01d54e19e1a704379845387077115db0c1d93fecfa58cc4ca37b5",
