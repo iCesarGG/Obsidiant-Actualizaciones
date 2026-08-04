@@ -1,12 +1,12 @@
 {
-    "version":  "0.48.1",
-    "nucleo_min":  "0.44.1",
-    "hecha_ms":  1785855796514,
-    "notas":  "Encima del boton de comprobar a fondo, cuando se comprobo por ultima vez: es lo que contesta de verdad la pregunta, porque si la respuesta es «hace tres dias» ya no hace falta pulsar nada. Si nunca se ha comprobado se dice con esas palabras, porque no saber no es lo mismo que estar bien. Debajo, la casilla para que lo haga sola cada tantos dias, con cuando toca la proxima y por que no ahora si es que no.",
+    "version":  "0.49.0",
+    "nucleo_min":  "0.45.0",
+    "hecha_ms":  1785860098590,
+    "notas":  "Debajo del titular de la caida, cuando no es la primera vez: \"Es la quinta vez con el mismo mod: la primera fue el 3 ago 2026, 14:21, y la anterior el 3 ago 2026, 17:19\". Va ahi y no dentro del desplegable de la evidencia porque no es un detalle: \"se cayo por Geyser\" y \"es la quinta vez con Geyser\" son dos noticias distintas, y la segunda es la que cambia lo que hay que hacer. El numero grande a la izquierda para verlo sin leer la frase, y toda la linea lleva al historial de caidas, que es la pregunta siguiente. Es un boton que no parece uno: otro boton rojo dentro de una tarjeta roja competiria con el de pedir ayuda, que es la accion de verdad. Y la frase entra tambien en lo que copia ese boton: en un Discord de soporte, \"lleva pasando desde abril\" ahorra las tres primeras preguntas. La primera vez no se dice nada, porque una linea que dice \"es la primera vez\" ocupa sitio para no aportar nada.",
     "archivos":  {
-                     "assets/index-56r-gROr.css":  "f70972ac0323b3223c8fd64398f3ae4a480a29c771e6190958ba585bc2f7322c",
-                     "assets/index-CsXl50MC.js":  "df71fd50a5bcd7853c43ddbbb87b2367fb5be3838aee8b6794250dc4e4865e30",
-                     "assets/window-X52Pg0Dc.js":  "b4d50acf0da8ec5195f062170ce964f37ea7fa44d89c6179f032b1e41664cd78",
-                     "index.html":  "af8366b867ff02323fd246ec6da21e57d0084b4bad527cde887492db401792ef"
+                     "assets/index-46uCJYj1.css":  "2de4b5ad0aceadf5caa8d9de19c07ffd756fb36b50eaaa8b584bc2d299596713",
+                     "assets/index-DTPZOfQA.js":  "7993681bac1410a8370c7c7c316a08434d9495d1f109eacd039add2c6b869fbe",
+                     "assets/window-C6r4WVwj.js":  "eaa01964fa687562fda3e35b1cef28aa7791cb3f9f52cb611d0c723cd1468107",
+                     "index.html":  "8f349424aea8f6c7fc22a0538aad6f73845072ee0e9a80180a8725835440618d"
                  }
 }
