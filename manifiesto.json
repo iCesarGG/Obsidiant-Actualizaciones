@@ -1,12 +1,12 @@
 {
-    "version":  "0.43.2",
-    "nucleo_min":  "0.39.2",
-    "hecha_ms":  1785821405238,
-    "notas":  "Sin cambios visibles: los dos arreglos son de fontanería, pero se notan. Tras mudar las copias de disco, el panel las encuentra en el sitio nuevo sin reabrir nada. Y el aviso de «Mover también lo que ya hay» dice cuánto se va a mover de verdad, no lo que ya hay en el destino.",
+    "version":  "0.44.1",
+    "nucleo_min":  "0.40.0",
+    "hecha_ms":  1785825087441,
+    "notas":  "El selector de disco avisa cuando un cambio anterior dejó copias atrás: dice la frase que faltaba —el disco se elige para toda la aplicación, no para el servidor abierto—, lista los servidores afectados con cuántas copias son, cuánto ocupan y dónde están, y da un botón por servidor para traerlas. Sale aunque el panel esté plegado, porque esconderlo detrás de un desplegable es cómo se descubre el día que hacen falta. Pasó de verdad la madrugada del 4 de agosto: 6,2 GB de copias de un servidor se quedaron en el disco viejo y su tarjeta pasó a decir «sin copias», sin más.",
     "archivos":  {
-                     "assets/index-C7U7fh6J.js":  "80f8e635216bc630a3e4d3a399c630013870bc3556faef27d1088a60c6e90174",
-                     "assets/index-DLpixJyg.css":  "9a8400ec8f89470de850132e9fc74d71d9be23a32c699da40a847ae9008be642",
-                     "assets/window-CMmsrN9Y.js":  "f11b3b44c9fbcc34b95336a44989f43af795f27ee58feb7f6499aceb885816ff",
-                     "index.html":  "7f3c4bca7705fa9b4c0c3c2901039162b3434732f847498319aea02194eca59c"
+                     "assets/index-B1vgYhgn.js":  "d0763d7315e13afcd3011b9405481fea97940f0695edee8f83b43c5eced95e9b",
+                     "assets/index-Ddnnhf14.css":  "6297a9680203c50ec7171d813b35e51e591ada13542f00b37fddd03f383e5550",
+                     "assets/window-DNYAufcr.js":  "4ee8097e625846248efb6ce24f6f76a191085e3cf11e1a5dee0d4742df63993a",
+                     "index.html":  "6e4ab4e08762c67f2841fdb54bdb3af3b11364b22838b689532cca849da48723"
                  }
 }
