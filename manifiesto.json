@@ -1,8 +1,8 @@
 {
-    "version":  "0.43.0",
-    "nucleo_min":  "0.39.0",
-    "hecha_ms":  1785818403288,
-    "notas":  "Botón «Comprobar a fondo» en el panel de Copias: lee las copias enteras y comprueba que cada pieza es la que dice ser, con barra de avance y botón de parar. La comprobación normal solo mira que las piezas estén; esta mira que no se hayan estropeado en el disco. En el ATM10 de Cesar: 10.679 piezas, 6,22 GB, menos de un minuto.",
+    "version":  "0.43.2",
+    "nucleo_min":  "0.39.2",
+    "hecha_ms":  1785821405238,
+    "notas":  "Sin cambios visibles: los dos arreglos son de fontanería, pero se notan. Tras mudar las copias de disco, el panel las encuentra en el sitio nuevo sin reabrir nada. Y el aviso de «Mover también lo que ya hay» dice cuánto se va a mover de verdad, no lo que ya hay en el destino.",
     "archivos":  {
                      "assets/index-C7U7fh6J.js":  "80f8e635216bc630a3e4d3a399c630013870bc3556faef27d1088a60c6e90174",
                      "assets/index-DLpixJyg.css":  "9a8400ec8f89470de850132e9fc74d71d9be23a32c699da40a847ae9008be642",

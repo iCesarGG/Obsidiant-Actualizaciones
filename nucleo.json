@@ -1,7 +1,7 @@
 {
-    "version":  "0.39.0",
-    "archivo":  "Obsidiant_0.39.0_x64-setup.exe",
-    "sha256":  "b39e48494651f64357a547b72041e9317e4d561bec7dcca8f1df0a1a221ef1ea",
-    "bytes":  4821267,
-    "notas":  "incremental::comprobar_a_fondo lee cada pieza del almacén y compara su contenido con la huella de su nombre. Es la diferencia entre «están todas» y «son las que deben ser»: si el disco se come un sector o una escritura queda a medias, el nombre sigue bien y el contenido ya no, y esa copia parece sana hasta el día que se restaura. Se puede parar a mitad, y una comprobación parada NO es un veredicto. Además, restaurar ya no copia a ciegas: verifica la huella de cada pieza antes de escribir el primer archivo y se niega entera si alguna está dañada — todo o nada."
+    "version":  "0.39.2",
+    "archivo":  "Obsidiant_0.39.2_x64-setup.exe",
+    "sha256":  "0733ebc33855bf75a42b7e97d6a4d62fe258b998114875c2b6d976ee710cbf33",
+    "bytes":  4825615,
+    "notas":  "La ruta de las copias se resuelve en cada uso en vez de salir del layout que se calculó al abrir el servidor. Ese layout se quedaba congelado, así que al mudar las copias a otro disco la aplicación seguía mirando la carpeta vieja —que acababa de quedarse vacía— y decía «Todavía no hay ninguna» debajo de las únicas copias de alguien. Es el mismo error que dejó sin copias automáticas al ATM10 el día anterior: un dato calculado una vez y usado para siempre. Ahora son dos JSON pequeños por consulta y la clase entera de fallo deja de ser posible."
 }
