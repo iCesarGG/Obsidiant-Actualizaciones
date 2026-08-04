@@ -1,12 +1,12 @@
 {
-    "version":  "0.42.0",
-    "nucleo_min":  "0.38.0",
-    "hecha_ms":  1785816375250,
-    "notas":  "Las copias se comprueban solas. Al abrir Copias, Obsidiant revisa todas las instantáneas y dice si se pueden restaurar; si a alguna le faltan piezas lo avisa con el archivo exacto que falta. Y la biblioteca lo enseña en la tarjeta del servidor, en rojo, sin entrar a ningún panel. Antes había que ir a buscar el botón «Comprobar» y darle a cada copia de una en una.",
+    "version":  "0.43.0",
+    "nucleo_min":  "0.39.0",
+    "hecha_ms":  1785818403288,
+    "notas":  "Botón «Comprobar a fondo» en el panel de Copias: lee las copias enteras y comprueba que cada pieza es la que dice ser, con barra de avance y botón de parar. La comprobación normal solo mira que las piezas estén; esta mira que no se hayan estropeado en el disco. En el ATM10 de Cesar: 10.679 piezas, 6,22 GB, menos de un minuto.",
     "archivos":  {
-                     "assets/index-Bywy_JkE.js":  "435078ffc99a8f5f36cb2a77dd1a50a9d1446a63c1fc989e9cf9ef706f8c92fc",
-                     "assets/index-DUt3Tb4O.css":  "594430760e422a74fd45c1ef7f92151cbf745366d50fef3619d68f8d5775c9dd",
-                     "assets/window-DQ6te4gT.js":  "199b771511c5a4bc8013ba949efe78ff6cebffdc48f743856504b5ff84aef3a8",
-                     "index.html":  "9940236f68aac7973dae0cf0ee778583920b773c13ce60b3760bacf157c4accf"
+                     "assets/index-C7U7fh6J.js":  "80f8e635216bc630a3e4d3a399c630013870bc3556faef27d1088a60c6e90174",
+                     "assets/index-DLpixJyg.css":  "9a8400ec8f89470de850132e9fc74d71d9be23a32c699da40a847ae9008be642",
+                     "assets/window-CMmsrN9Y.js":  "f11b3b44c9fbcc34b95336a44989f43af795f27ee58feb7f6499aceb885816ff",
+                     "index.html":  "7f3c4bca7705fa9b4c0c3c2901039162b3434732f847498319aea02194eca59c"
                  }
 }

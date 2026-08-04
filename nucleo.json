@@ -1,7 +1,7 @@
 {
-    "version":  "0.38.0",
-    "archivo":  "Obsidiant_0.38.0_x64-setup.exe",
-    "sha256":  "8c5ef99da9dfbcaf0cd954348b6876bde3ff25323d580c05b06d8cdcec8c5e69",
-    "bytes":  4795137,
-    "notas":  "incremental::revisar_bodega revisa TODAS las copias de una bodega en una pasada: lee el almacén una vez y resuelve cada índice contra un conjunto en memoria, en vez de preguntarle al disco por cada archivo de cada copia (en el mundo de Cesar, 110.000 preguntas con diez copias guardadas — por eso en la práctica no se hacía nunca). Distingue «le faltan piezas» de «el índice no se deja leer». Se revisa al terminar cada copia y el veredicto se apunta en copias/revision.json para que la biblioteca pueda avisar sin recorrer nada. Y una cápsula recién hecha ya no se da por entera sin comprobarlo."
+    "version":  "0.39.0",
+    "archivo":  "Obsidiant_0.39.0_x64-setup.exe",
+    "sha256":  "b39e48494651f64357a547b72041e9317e4d561bec7dcca8f1df0a1a221ef1ea",
+    "bytes":  4821267,
+    "notas":  "incremental::comprobar_a_fondo lee cada pieza del almacén y compara su contenido con la huella de su nombre. Es la diferencia entre «están todas» y «son las que deben ser»: si el disco se come un sector o una escritura queda a medias, el nombre sigue bien y el contenido ya no, y esa copia parece sana hasta el día que se restaura. Se puede parar a mitad, y una comprobación parada NO es un veredicto. Además, restaurar ya no copia a ciegas: verifica la huella de cada pieza antes de escribir el primer archivo y se niega entera si alguna está dañada — todo o nada."
 }
