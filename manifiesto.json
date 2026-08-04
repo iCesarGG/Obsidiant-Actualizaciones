@@ -1,12 +1,12 @@
 {
-    "version":  "0.41.1",
-    "nucleo_min":  "0.37.2",
-    "hecha_ms":  1785801791369,
-    "notas":  "Sin cambios de interfaz: la tarjeta es la misma; lo nuevo lo pone el nucleo en el motivo.",
+    "version":  "0.41.3",
+    "nucleo_min":  "0.37.3",
+    "hecha_ms":  1785814011682,
+    "notas":  "La biblioteca deja de mentir sobre las copias: la tarjeta contaba solo los .zip, así que un servidor en modo Instantánea salía siempre con «sin copias» aunque tuviera diez. Ahora cuenta las tres clases —zips, instantáneas y cápsulas— y enseña lo que ocupan en disco de verdad. Y «1 copia» ya va en singular.",
     "archivos":  {
-                     "assets/index-B9QR2bCD.js":  "eb742f16b6f140201213423876c027a92b8027781c66dfe554e386efc6a64c02",
+                     "assets/index-Bb4iMPgz.js":  "a25b3f90e07fdcda1f0af839f9da6ae715d0ec9d8ca6ad0fe3581ba4921a58c2",
                      "assets/index-Cd3CH4Mx.css":  "6d7a190a57947646f89cd727f608e75556c8d32152c236870b99dcf882c1cd64",
-                     "assets/window-C6wMXdrj.js":  "f097fb12fe52a33cb5ce55b666c9da90c6ba444fd79254815f36af1a8543c0ed",
-                     "index.html":  "1ede5b51ab7c49871cded8420b9b6fd878f2c9fb1756fa8fbacd514e81539763"
+                     "assets/window-B8yAo6V8.js":  "54532958a170f206147e8e5e1df10f55c9b71c6b1072ecc6d39b470216c3c739",
+                     "index.html":  "1bc7d00088e5571102e31c928c5ca12dc04edb03f3460bb414d9220c3f5531ad"
                  }
 }
