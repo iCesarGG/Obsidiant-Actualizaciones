@@ -1,12 +1,12 @@
 {
-    "version":  "0.41.3",
-    "nucleo_min":  "0.37.3",
-    "hecha_ms":  1785814011682,
-    "notas":  "La biblioteca deja de mentir sobre las copias: la tarjeta contaba solo los .zip, así que un servidor en modo Instantánea salía siempre con «sin copias» aunque tuviera diez. Ahora cuenta las tres clases —zips, instantáneas y cápsulas— y enseña lo que ocupan en disco de verdad. Y «1 copia» ya va en singular.",
+    "version":  "0.42.0",
+    "nucleo_min":  "0.38.0",
+    "hecha_ms":  1785816375250,
+    "notas":  "Las copias se comprueban solas. Al abrir Copias, Obsidiant revisa todas las instantáneas y dice si se pueden restaurar; si a alguna le faltan piezas lo avisa con el archivo exacto que falta. Y la biblioteca lo enseña en la tarjeta del servidor, en rojo, sin entrar a ningún panel. Antes había que ir a buscar el botón «Comprobar» y darle a cada copia de una en una.",
     "archivos":  {
-                     "assets/index-Bb4iMPgz.js":  "a25b3f90e07fdcda1f0af839f9da6ae715d0ec9d8ca6ad0fe3581ba4921a58c2",
-                     "assets/index-Cd3CH4Mx.css":  "6d7a190a57947646f89cd727f608e75556c8d32152c236870b99dcf882c1cd64",
-                     "assets/window-B8yAo6V8.js":  "54532958a170f206147e8e5e1df10f55c9b71c6b1072ecc6d39b470216c3c739",
-                     "index.html":  "1bc7d00088e5571102e31c928c5ca12dc04edb03f3460bb414d9220c3f5531ad"
+                     "assets/index-Bywy_JkE.js":  "435078ffc99a8f5f36cb2a77dd1a50a9d1446a63c1fc989e9cf9ef706f8c92fc",
+                     "assets/index-DUt3Tb4O.css":  "594430760e422a74fd45c1ef7f92151cbf745366d50fef3619d68f8d5775c9dd",
+                     "assets/window-DQ6te4gT.js":  "199b771511c5a4bc8013ba949efe78ff6cebffdc48f743856504b5ff84aef3a8",
+                     "index.html":  "9940236f68aac7973dae0cf0ee778583920b773c13ce60b3760bacf157c4accf"
                  }
 }

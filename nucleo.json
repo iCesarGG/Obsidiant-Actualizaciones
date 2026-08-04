@@ -1,7 +1,7 @@
 {
-    "version":  "0.37.3",
-    "archivo":  "Obsidiant_0.37.3_x64-setup.exe",
-    "sha256":  "035e8a1291aca2f648a7f5f6855c46ae1447132530c8def9f042840cdb8f88b4",
-    "bytes":  4802747,
-    "notas":  "backup::recontar: cuenta las tres clases de copia de un servidor y suma lo que ocupan EN DISCO, no lo que valdría cada una suelta (las instantáneas comparten piezas; sumarlas diría 18 GB de tres copias de un mundo de 6). Un índice ilegible cuenta igual: existe porque esa copia se hizo, y no contarlo repetiría la mentira que esto viene a arreglar."
+    "version":  "0.38.0",
+    "archivo":  "Obsidiant_0.38.0_x64-setup.exe",
+    "sha256":  "8c5ef99da9dfbcaf0cd954348b6876bde3ff25323d580c05b06d8cdcec8c5e69",
+    "bytes":  4795137,
+    "notas":  "incremental::revisar_bodega revisa TODAS las copias de una bodega en una pasada: lee el almacén una vez y resuelve cada índice contra un conjunto en memoria, en vez de preguntarle al disco por cada archivo de cada copia (en el mundo de Cesar, 110.000 preguntas con diez copias guardadas — por eso en la práctica no se hacía nunca). Distingue «le faltan piezas» de «el índice no se deja leer». Se revisa al terminar cada copia y el veredicto se apunta en copias/revision.json para que la biblioteca pueda avisar sin recorrer nada. Y una cápsula recién hecha ya no se da por entera sin comprobarlo."
 }
