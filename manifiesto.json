@@ -1,12 +1,12 @@
 {
-    "version":  "0.47.0",
-    "nucleo_min":  "0.43.0",
-    "hecha_ms":  1785831029124,
-    "notas":  "El selector de disco enseñaba el ajuste de la aplicación estuviera abierto el servidor que estuviera. Delante de uno que montó Obsidiant eso era falso —sus copias viven dentro de su propia carpeta— y encima falso en la pantalla que existe para que nadie pierda de vista dónde están sus copias: la misma clase de mentira que las copias huérfanas. Ahora la cabecera enseña la ruta de este servidor, y cuando no sigue el ajuste se dice por qué y con su nombre. En ese caso desaparecen las dos cosas que no le aplican: el botón de mover lo que ya hay, y la recomendación de elegir otro disco, que puesta ahí se contradecía con la frase de arriba.",
+    "version":  "0.48.1",
+    "nucleo_min":  "0.44.1",
+    "hecha_ms":  1785855796514,
+    "notas":  "Encima del boton de comprobar a fondo, cuando se comprobo por ultima vez: es lo que contesta de verdad la pregunta, porque si la respuesta es «hace tres dias» ya no hace falta pulsar nada. Si nunca se ha comprobado se dice con esas palabras, porque no saber no es lo mismo que estar bien. Debajo, la casilla para que lo haga sola cada tantos dias, con cuando toca la proxima y por que no ahora si es que no.",
     "archivos":  {
-                     "assets/index-B1b_bWK6.css":  "6e5fa7263031ecef8b30e987478b271489dada79d643632b442a678a3b018fe7",
-                     "assets/index-CHh4gPFs.js":  "7b2b87f7f4541cc4a1a85dd2083bd167c2edd03df07ebd87fcb59a099a100fe2",
-                     "assets/window-DMq92_QA.js":  "a73c1a90177fa5774893c71d53b5984b27467eaa4155cadc3389c93fdb9c5fd3",
-                     "index.html":  "3c14a338f6cd3aa84324fa01e4978956abf42dcfb37498402604b13d5dc266e3"
+                     "assets/index-56r-gROr.css":  "f70972ac0323b3223c8fd64398f3ae4a480a29c771e6190958ba585bc2f7322c",
+                     "assets/index-CsXl50MC.js":  "df71fd50a5bcd7853c43ddbbb87b2367fb5be3838aee8b6794250dc4e4865e30",
+                     "assets/window-X52Pg0Dc.js":  "b4d50acf0da8ec5195f062170ce964f37ea7fa44d89c6179f032b1e41664cd78",
+                     "index.html":  "af8366b867ff02323fd246ec6da21e57d0084b4bad527cde887492db401792ef"
                  }
 }

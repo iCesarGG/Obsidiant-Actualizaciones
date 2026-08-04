@@ -1,7 +1,7 @@
 {
-    "version":  "0.43.0",
-    "archivo":  "Obsidiant_0.43.0_x64-setup.exe",
-    "sha256":  "4b9b26d8b8494be99334a8dbb3123cce7e8ab15ab5c5af7e893996ce5ebf4764",
-    "bytes":  4892968,
-    "notas":  "Entrada::copias_siguen_el_disco: la otra cara de Entrada::layout, dicha en una frase para que la pantalla pueda enseñarla. A un servidor que montó Obsidiant las copias le viven dentro de su propia carpeta y el ajuste de disco no se las mueve; solo los adoptados lo siguen. Y discos_ver deja de contestar con el ajuste de la aplicación: devuelve la ruta de copias DEL SERVIDOR ABIERTO, sacada de su propio layout, más si ese servidor sigue el ajuste o no y cómo se llama. El origen que se mide para la mudanza también se calcula solo cuando hay algo que mover: medir la carpeta de fábrica de un servidor que no la usa daba un número que no hablaba de nada. Con una prueba que ata la etiqueta a la realidad: si dice que sigue el ajuste, su layout tiene que acabar de verdad bajo el disco elegido."
+    "version":  "0.44.1",
+    "archivo":  "Obsidiant_0.44.1_x64-setup.exe",
+    "sha256":  "97aa975c4e8ca4a0cb9d053478c3b6939d21c5ee618b8382fc90d4e4fc46df2a",
+    "bytes":  4882016,
+    "notas":  "Las copias se comprueban a fondo solas. schedule::decidir_fondo contesta si toca y, si no, por que no, con la misma forma que la decision de las copias: primero lo que apaga el sistema entero, despues lo que solo lo retrasa. Dos reglas mandan. Una: NO se mira si algo ha cambiado, al reves que en las copias. Una pieza se pudre sin que nadie la toque —un sector que se degrada, una escritura que quedo a medias hace meses—, asi que saltarse la comprobacion porque no ha pasado nada seria saltarsela justo en el caso que la justifica. Dos: con el servidor parado, porque leer seis gigas mientras se juega le quita disco al mundo y una comprobacion que provoca tirones ensena a apagarla. El orden importa: primero si toca y despues si se puede, o un servidor encendido semanas diria siempre «esta jugandose» y nadie sabria que ademas hace un mes que no se comprueba. El veredicto se apunta en fondo.json aparte del de la revision normal —son dos preguntas con dos costes— y solo si la comprobacion termino: una parada a medias no es un veredicto y no puede reiniciar el reloj. Y de paso, un fallo que salio al escribir la prueba de la fecha futura: el programador de copias tenia un comentario prometiendo «en la duda se copia» y un codigo que esperaba el intervalo entero. Ahora una fecha del futuro se trata como no saber, que es lo que es."
 }
