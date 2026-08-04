@@ -1,7 +1,7 @@
 {
-    "version":  "0.40.0",
-    "archivo":  "Obsidiant_0.40.0_x64-setup.exe",
-    "sha256":  "a9648a1036ef916cad8ba80121f716b088eb98bdac950fdb2b8b323f16ca6b97",
-    "bytes":  4835545,
-    "notas":  "El ajuste de dónde viven las copias es de la aplicación entera, no del servidor que tengas abierto, y eso no se decía en ninguna parte. Al mudar las copias de un servidor a otro disco, las de los demás se quedaban en el sitio de antes: enteras, intactas, y ya invisibles. Ahora el núcleo sabe buscarlas —compara la ruta de fábrica de cada servidor de la biblioteca con la de ahora y mira qué quedó allí— y hay un comando nuevo para traer las de cualquier servidor sin tener que abrirlo primero. Lo que se cuenta son copias, no archivos: una sola instantánea de un mundo de seis gigas son diez mil archivos sueltos, y el servidor ya mudado deja atrás un revision.json de 163 bytes que no es ninguna copia. Un aviso que salta cuando no pasa nada enseña a ignorar los avisos. Mueve igual que siempre: copia, comprueba tamaño a tamaño, y solo entonces borra lo viejo."
+    "version":  "0.41.1",
+    "archivo":  "Obsidiant_0.41.1_x64-setup.exe",
+    "sha256":  "6a42ce619db65d481bdb9275da4ccc094075789ae9511beb84bb03e64f077f7d",
+    "bytes":  4869140,
+    "notas":  "Nuevo módulo caidas: el historial de caídas de un servidor, leído de crash-reports/ y agrupado por avería. Se agrupa por el mod señalado —necropsia aprendió a sacar el modid de la cabecera de cada sección de fallo— y no por la frase, porque dos informes del mismo mod no traen el mismo texto: cambia la línea y el mensaje de la excepción, y comparar frases daría cincuenta averías de una. El titular que se enseña es el de la PRIMERA vez del grupo: cuando algo falla varias veces seguidas, el error de verdad está en la primera y las siguientes suelen ser el mismo fallo de rebote. Las fechas salen del nombre del archivo, que es el reloj del servidor al morir, y se guardan como AAAAMMDDHHMMSS sin convertir a época: así no hay huso ni horario de verano que pueda enseñar una caída una hora antes de cuando fue. Se leen los treinta más recientes, y Historial dice cuántos hay en total: un tope que no se anuncia es una mentira con forma de dato, y además falsea los recuentos de cada racha. Y tres traducciones nuevas, todas de informes reales del All the Mods 10: el mod que revienta preparándose, el mod que otro declara incompatible —donde NeoForge titula «An uncaught parallel processing error» y el motivo va tres líneas más abajo— y «1 fallo más» en singular."
 }

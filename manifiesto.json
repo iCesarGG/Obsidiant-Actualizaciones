@@ -1,12 +1,12 @@
 {
-    "version":  "0.44.1",
-    "nucleo_min":  "0.40.0",
-    "hecha_ms":  1785825087441,
-    "notas":  "El selector de disco avisa cuando un cambio anterior dejó copias atrás: dice la frase que faltaba —el disco se elige para toda la aplicación, no para el servidor abierto—, lista los servidores afectados con cuántas copias son, cuánto ocupan y dónde están, y da un botón por servidor para traerlas. Sale aunque el panel esté plegado, porque esconderlo detrás de un desplegable es cómo se descubre el día que hacen falta. Pasó de verdad la madrugada del 4 de agosto: 6,2 GB de copias de un servidor se quedaron en el disco viejo y su tarjeta pasó a decir «sin copias», sin más.",
+    "version":  "0.45.1",
+    "nucleo_min":  "0.41.1",
+    "hecha_ms":  1785827566115,
+    "notas":  "Una sección nueva en el menú, Caídas, con el historial del servidor. La tarjeta del resumen cuenta la muerte de hoy; esto cuenta la costumbre, que es otra pregunta y se hace en otro momento. Cada fila es una avería y no un informe: dice cuántas veces pasó, entre qué fechas, qué mod señala y por qué, con la evidencia desplegable y los nombres de los informes que la sostienen. Cuando hay más informes de los que se abren, lo dice con su número y avisa de que los recuentos son los de lo leído. El botón de copiar añade lo que solo sabe esta pantalla —cuántas veces y desde cuándo—, que en un Discord de soporte es media respuesta ya dada. Si no hay ninguna caída lo dice con esas palabras, porque un panel vacío y mudo se lee como que algo no funciona.",
     "archivos":  {
-                     "assets/index-B1vgYhgn.js":  "d0763d7315e13afcd3011b9405481fea97940f0695edee8f83b43c5eced95e9b",
-                     "assets/index-Ddnnhf14.css":  "6297a9680203c50ec7171d813b35e51e591ada13542f00b37fddd03f383e5550",
-                     "assets/window-DNYAufcr.js":  "4ee8097e625846248efb6ce24f6f76a191085e3cf11e1a5dee0d4742df63993a",
-                     "index.html":  "6e4ab4e08762c67f2841fdb54bdb3af3b11364b22838b689532cca849da48723"
+                     "assets/index-D3F4mH8T.css":  "f9af58f0540c510f1f853626cf6884df542cc3404d25b337161ce7890e40d7c9",
+                     "assets/index-_4SvytB5.js":  "ea6256d5cf430771e2620254c0e11436e4f4d99bf2377244a497d009e38e78c8",
+                     "assets/window-BkqSKBUJ.js":  "179388932218a90d30222fb7544fa364ce88a95e757ad944c6d0de6f4f1d7615",
+                     "index.html":  "1c11a7fe4ad3316f293f5d52378e387382793504e1bbe4b9e091abdc7e6ee47a"
                  }
 }
