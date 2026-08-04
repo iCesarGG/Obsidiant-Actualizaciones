@@ -1,7 +1,7 @@
 {
-    "version":  "0.37.1",
-    "archivo":  "Obsidiant_0.37.1_x64-setup.exe",
-    "sha256":  "ff3991eca02c844f361f36914c0c383ea634313e5a2fb7af2da6150d64635447",
-    "bytes":  4795738,
-    "notas":  "El reloj del estreno se para en el veredicto: la vista ya no sigue contando segundos por mirar la tarjeta tarde."
+    "version":  "0.37.2",
+    "archivo":  "Obsidiant_0.37.2_x64-setup.exe",
+    "sha256":  "8da5d32a7d2ff7598d02c1111b05e4d93d71462e9c496ef8a63a0e6d3e6c2e2b",
+    "bytes":  4798878,
+    "notas":  "La necropsia aprende las caídas en plena partida: cuando el servidor ya estaba En marcha y revienta un tick (o el watchdog lo mata), la pila del informe señala al mod («la pila señala a mekanism»), leyendo los marcos TRANSFORMER de NeoForge y saltando la casa (minecraft, neoforge, el cargador). La pila solo se lee después de la línea de la muerte: un warning con stack de por la tarde no acusa por la noche. Y un servidor caído ya no bloquea nada: ni Arrancar ni cambiar de servidor le piden «parar» a un muerto."
 }
