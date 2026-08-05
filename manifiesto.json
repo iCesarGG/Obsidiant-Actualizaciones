@@ -1,12 +1,12 @@
 {
-    "version":  "0.56.0",
-    "nucleo_min":  "0.51.0",
-    "hecha_ms":  1785946972362,
-    "notas":  "La tabla de abajo no seguia a la ventana elegida. Con \"Desde la foto\" puesto, arriba decia \"todavia no puedo comparar a nadie... ahora mismo no hay ninguno\" y debajo enseñaba los 8.059 bloques que Shomsito lleva picados de toda la vida. Dos cosas contrarias en la misma pantalla, y la de abajo es la que se lee primero porque son numeros. Ahora la tabla ensena los numeros de la ventana que este elegida, y en la racha ensena solo a quien ha hecho algo: cuatro filas de ceros no son un dato, son ruido, y empujan hacia abajo a quien si jugo. Si no ha picado nadie desde la foto se dice con todas las letras, y se dice tambien que lo que se busca aqui es un cambio de costumbres y eso necesita dias de por medio, no minutos. Se vio mirando la pantalla, con la foto recien tomada.",
+    "version":  "0.57.0",
+    "nucleo_min":  "0.52.0",
+    "hecha_ms":  1785958437656,
+    "notas":  "Dar OP ya pregunta antes, y los botones que reparten poder estan separados del resto. Eran cinco fichas identicas en fila -OP, DeOP, TP, Expulsar, Vetar- y las dos primeras se diferencian en dos letras. Ahora OP va en ambar, con un hueco entre las dos de poder y las tres de sala, y al pulsarlo sale una confirmacion que dice tres cosas: que se los das de verdad y podra darse lo que quiera y vetar a cualquiera; que eso te incluye a ti, y que si te quita el OP y te veta ya no se arregla desde aqui; y que si solo quieres que pueda entrar, con la lista blanca basta. El boton que confirma repite la accion -\"Si, hacerle operador\"- en vez de decir \"Si\" a secas, que no dice que estas confirmando cuando el aviso ocupa cuatro lineas. Lo mismo el de vetar, que ahora dice tambien lo que NO hace: no le borra nada, sus cosas y su casa siguen donde estaban, y el veto se levanta cuando quieras. Expulsar sigue sin preguntar a proposito, porque se deshace solo. Que se pregunta lo decide ahora el nucleo y no esta pantalla, que es la razon por la que el boton y la consola llevaban meses en desacuerdo; si por lo que sea no se puede consultar, la accion no se manda y se dice. En las fichas de jugador, \"bloques puestos\" pasa a llamarse \"objetos usados\", que es lo que cuenta de verdad esa estadistica de Minecraft: ahi dentro estan tambien los filetes, las pociones y las flechas.",
     "archivos":  {
-                     "assets/index-DWQlb4jj.js":  "1d10e5df5ea7c81e259cc90957acad7385818dddd766da0d77ea96bcfce9f396",
-                     "assets/index-wa-3W6bB.css":  "89ab29f0950f411ce94f7eff1cf4a0cbb405fafe18f44cb1a79912373d6648a3",
-                     "assets/window-VZK1OU9y.js":  "c602525a77c01650536242df19160af1b575f3895276d8cbaf6e604b24397c11",
-                     "index.html":  "d80e3fee5d56fa1dca6e6ade6e398952cb8a62b75cb02cfd0ec8ae692aed654d"
+                     "assets/index-7SQROfIJ.js":  "5fe7b29b4ab03e5e13035ad518ceeadbe189b074d2188a84cc0df4ca833dba4f",
+                     "assets/index-Dn5VoSg2.css":  "0314d15401667e6df8703bfe321ab8fd9a7d3be0cc97f49e762fbb46e877166d",
+                     "assets/window-DYNTVoEo.js":  "d3d31fc1e64cf2846752e9f821ab8977e760bbeb6f1a62be3f03012e5b253922",
+                     "index.html":  "fa37e06681f77fce836f36c577d6d6f76370cc326b0cd9c13c9b6996c669202a"
                  }
 }
