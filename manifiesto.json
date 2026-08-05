@@ -1,12 +1,12 @@
 {
-    "version":  "0.57.0",
-    "nucleo_min":  "0.52.0",
-    "hecha_ms":  1785958437656,
-    "notas":  "Dar OP ya pregunta antes, y los botones que reparten poder estan separados del resto. Eran cinco fichas identicas en fila -OP, DeOP, TP, Expulsar, Vetar- y las dos primeras se diferencian en dos letras. Ahora OP va en ambar, con un hueco entre las dos de poder y las tres de sala, y al pulsarlo sale una confirmacion que dice tres cosas: que se los das de verdad y podra darse lo que quiera y vetar a cualquiera; que eso te incluye a ti, y que si te quita el OP y te veta ya no se arregla desde aqui; y que si solo quieres que pueda entrar, con la lista blanca basta. El boton que confirma repite la accion -\"Si, hacerle operador\"- en vez de decir \"Si\" a secas, que no dice que estas confirmando cuando el aviso ocupa cuatro lineas. Lo mismo el de vetar, que ahora dice tambien lo que NO hace: no le borra nada, sus cosas y su casa siguen donde estaban, y el veto se levanta cuando quieras. Expulsar sigue sin preguntar a proposito, porque se deshace solo. Que se pregunta lo decide ahora el nucleo y no esta pantalla, que es la razon por la que el boton y la consola llevaban meses en desacuerdo; si por lo que sea no se puede consultar, la accion no se manda y se dice. En las fichas de jugador, \"bloques puestos\" pasa a llamarse \"objetos usados\", que es lo que cuenta de verdad esa estadistica de Minecraft: ahi dentro estan tambien los filetes, las pociones y las flechas.",
+    "version":  "0.58.0",
+    "nucleo_min":  "0.53.0",
+    "hecha_ms":  1785959750229,
+    "notas":  "Si una busqueda del bisector se queda a medias, ahora la pantalla lo ve y ofrece deshacerla. Antes no habia forma: la foto de como estaba la carpeta vivia en memoria y se perdia con la busqueda, asi que cerrar la ventana en medio -nueve arranques son tres cuartos de hora- o un renombrado fallido dejaban media lista de mods apagada para siempre. El propio comentario de la pantalla lo daba por perdido: \"si la ventana se cerro a media busqueda, el nucleo ya no la tiene\". Ahora, al abrir, si no hay ninguna busqueda viva se mira si quedo foto guardada, y si la carpeta no esta como dice sale un aviso arriba: cuantos mods siguen apagados por una busqueda que ya no existe, y un boton para dejar la carpeta exactamente igual que antes de empezar. En ambar y no en rojo, porque no se ha perdido nada: los mods estan todos ahi, solo renombrados.",
     "archivos":  {
-                     "assets/index-7SQROfIJ.js":  "5fe7b29b4ab03e5e13035ad518ceeadbe189b074d2188a84cc0df4ca833dba4f",
-                     "assets/index-Dn5VoSg2.css":  "0314d15401667e6df8703bfe321ab8fd9a7d3be0cc97f49e762fbb46e877166d",
-                     "assets/window-DYNTVoEo.js":  "d3d31fc1e64cf2846752e9f821ab8977e760bbeb6f1a62be3f03012e5b253922",
-                     "index.html":  "fa37e06681f77fce836f36c577d6d6f76370cc326b0cd9c13c9b6996c669202a"
+                     "assets/index-CB4AhGZs.css":  "d5e1e35c43abfbd8d475d1c4b562f45a4ecdc9e253d96bd7dae4e44c07e32fd4",
+                     "assets/index-zptiO9pp.js":  "dc6fe6e3ca169fbc481d8616edd83a336aec006126550dc762e83fc65c1a9e98",
+                     "assets/window-pjAGTQvq.js":  "8e612ee8c3b968ce55443c3db6234e7a7d1b10c56a5ffa8e435a3b6ed7e432b6",
+                     "index.html":  "1d4f0d58f1b4499cf1b47191f469cc31d9305b33ca1320fe0ff7aa750dc62abb"
                  }
 }
