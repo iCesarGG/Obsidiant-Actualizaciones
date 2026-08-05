@@ -1,12 +1,12 @@
 {
-    "version":  "0.52.0",
-    "nucleo_min":  "0.49.0",
-    "hecha_ms":  1785906377551,
-    "notas":  "El boton de copiar la consola deja de mentir. Copiaba las ultimas 400 lineas en silencio, asi que quien lo pegaba en un Discord de soporte creia estar enseñando su registro y estaba enseñando un trozo elegido por la aplicacion -y quien lo leia no tenia forma de saberlo-. Ahora lo copiado lleva delante una linea que dice que es: \"Obsidiant - consola - las ultimas 400 de 3.128 lineas - filtro: Sin ruido - solo Geyser\". Con eso, quien ayuda sabe si le falta contexto y quien pide ayuda no tiene que acordarse de avisar. Cuando no hay recorte, no se inventa uno: dice cuantas lineas hay y ya. Ademas, el portapapeles que dice que no ya no falla en silencio: antes el .then() no tenia .catch, asi que un rechazo dejaba el boton exactamente igual que un acierto -ni tic, ni error, ni nada-. La fila de \"quien habla\" dice cuantos mods no caben: eran nueve chips y punto, y con 458 mods hablando, quien busca uno concreto y no lo ve concluye que no ha dicho nada. Los filtros y los chips llevan aria-pressed, que es lo que convierte un boton con un borde distinto en un interruptor para quien no ve el borde. Y la consola deja de recalcular de quien es cada linea al pintar: ese dato lo decide ahora el nucleo al leerla y viaja con ella, asi que elegir un mod deja de costar un analisis de las 3.000 lineas del registro por cada linea nueva que llega.",
+    "version":  "0.53.0",
+    "nucleo_min":  "0.50.0",
+    "hecha_ms":  1785940926099,
+    "notas":  "Desvincular el tunel ya pregunta antes. Borra de este equipo la clave de tu cuenta de playit, que no se puede recuperar -para volver a usarlo hay que aprobarlo otra vez en el navegador- y estaba al lado de \"Encender el tunel\", con el mismo peso y sin preguntar nada. Ahora pide un segundo si y dice tambien lo que NO hace: no borra tu cuenta de playit ni el tunel que ya tengas creado alli. La pantalla del tunel tampoco se queda muda cuando algo falla: si no se puede leer el estado, salia el error suelto y ni un boton, porque ninguno de los bloques se pinta sin estado. Ahora hay un \"Mirando como esta el tunel...\" mientras llega y un \"Reintentar\" al lado del error. Y la de acceso remoto se quedaba diciendo \"Cargando...\" para siempre: el error se guardaba en su variable y nunca se pintaba, porque esa linea salia antes que ningun sitio donde enseñarlo. Es el mismo fallo que tuvo el selector de disco, con su comentario contandolo, en otra pantalla. Por ultimo, el boton de copiar dejaba de fallar en silencio en los cuatro sitios que quedaban -el tunel, las fichas, el mapa y el rastreador-: writeText se rechaza de verdad en un webview que no tiene el foco, y sin .catch el boton queda exactamente igual que si no lo hubieran pulsado. Eso es lo peor que puede hacer un boton, porque no se distingue de que la aplicacion se haya colgado. El texto del fallo se escribe ahora en un solo sitio, y de paso el tic de \"Copiado\" deja de durar 1600 ms en un sitio y 1800 en otro.",
     "archivos":  {
-                     "assets/index-BM9DVhqg.js":  "1fd5d30486c01d54e19e1a704379845387077115db0c1d93fecfa58cc4ca37b5",
+                     "assets/index-Cc3ry_Uk.js":  "2383f77a4799e8444a24592187ffde3e2f616fcefa70ebaf26597cee69489c43",
                      "assets/index-CtfY0l4Q.css":  "b6c86af50bab732f64fa6e205ac4db1e85289ea3da6954be9f23cdf555cf8030",
-                     "assets/window-touD3FEn.js":  "74e009b30486320061692a8950238c1b4561f92d84889c09be59c86b109ce54c",
-                     "index.html":  "bc94074fb1276c0e6f54f1c58ff17ea25d237d188dd52be4d272023eace03baf"
+                     "assets/window-Ch72r5B5.js":  "47f68874ad35405baa586f72c18aa9c7e3a349676fa97ab34343b0280db3f3ba",
+                     "index.html":  "cbfb23f129bae24464d8f2a0b2e2ad33f46adcf9d3e8b97ade56ccbec211e1f3"
                  }
 }
