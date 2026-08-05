@@ -1,12 +1,12 @@
 {
-    "version":  "0.54.0",
+    "version":  "0.55.0",
     "nucleo_min":  "0.51.0",
-    "hecha_ms":  1785941784848,
-    "notas":  "La pantalla de mineria contaba senales y ahora ensena familias. Ponia \"4 senales\" arriba de la ficha, y las cuatro eran el mismo hecho -que esa persona movio poca roca- escrito una vez por cada clase de mena. Cuatro numeros en fila se leen como cuatro pruebas cuando estas a punto de acusar a un amigo. Ahora hay dos bloques con su titulo, \"Cuanta roca mueve\" y \"Que saca\", y arriba sale de cuales de las dos se trata en vez de cuantos numeros salieron. Cuando solo habla una, se dice cual falta y que explica la que hay: mover poca roca y solo eso lo hace cualquiera que mine en cuevas, con TNT o con una perforadora de mod; sacar una mezcla rara y solo eso lo hace una veta grande o recoger lo que otro dejo abierto. Y hay dos ventanas: \"Desde siempre\" y \"Desde la foto de hace N dias\". La segunda sale primero cuando tiene algo que decir, porque es donde la senal esta limpia -el total es justo el que la diluye- y arriba se explica por que existe. Si a alguien le han bajado las cuentas desde la foto se dice con su nombre, en vez de restarle un cero que parece que no ha jugado. Hay un \"Empezar a contar desde aqui\" con su segundo si, que dice tambien lo que NO hace: no borra ninguna estadistica de nadie, solo mueve el punto desde el que se cuenta. Y la primera vez, que es la que crea la foto sola, la pantalla lo dice y explica que se vera la proxima vez, para que ese boton signifique algo. En el mapa del mundo, la ficha de una cuadricula callaba igual cuando no habia entidades que cuando nadie las habia mirado: ahora el cero se ensena si se miro y no se promete nada si no. Las maquinas desaparecen de la ficha salvo que se hayan contado de verdad, que con el boton del mapa no pasa nunca. La cabecera decia \"es instantaneo\" al lado de un boton que abre todos los archivos de entidades del mundo y tarda minutos en uno de dos anos: ahora ese boton lleva su etiqueta de \"tarda\" antes de pulsarlo y dice \"Leyendo el mundo...\" mientras va, y el otro sigue diciendo \"Dibujando...\", cada uno el suyo.",
+    "hecha_ms":  1785946523774,
+    "notas":  "El enlace de \"Empezar a contar desde aqui\" salia estirado de lado a lado de la pantalla. La columna que lo contiene no decia como alinear a sus hijos, asi que el navegador lo estiro al ancho completo: mil cien pixeles de barra blanca, con la pinta exacta del boton principal de la pantalla. Y es justo el contrario: es el que tira a la basura la comparacion que llevas acumulada. Ahora ocupa lo que ocupa su texto y el aviso de confirmacion sigue ocupando el ancho entero, que ahi si hace falta. Se vio mirando la pantalla, no en las pruebas.",
     "archivos":  {
-                     "assets/index-C_hA3ADJ.css":  "bd53e6d0bfac16221c4e9b2accb9ee5ce89dc432b7abbd3b1ea0fd282198482e",
-                     "assets/index-CsLmqH_4.js":  "e956ecf409ae659f17bb75338f1392c3b9f687192a13874eb6e948194d1c92ea",
-                     "assets/window-CUnMk_Wx.js":  "831fca17f3478c2e52699c97f78eecc65e8a67558bc31c6689a1d9812d146e60",
-                     "index.html":  "d53b92875179dfac7ef9f90a48f54c537ea0e9ed221907afe98d2857de0b3d6b"
+                     "assets/index-CVWvaOkk.css":  "37be21ef5363daffbe90bdf5d393e11944ca33a9c7e038de11d20c5c33aad0ba",
+                     "assets/index-ogmSVEGC.js":  "5ebbe125a74fa9cd5022fc099f193a190fc60646e15fda7fd3d69f285f9ee86a",
+                     "assets/window-CSxPisn_.js":  "0f1718d2ad2b28d626fdba17dd1f8c27d71b776728ada2b4afe4c6dbb512d106",
+                     "index.html":  "c945ae0e5c69c9d6160755cb621bd2e68ed0731a87a63cb6305b8e130241e164"
                  }
 }
