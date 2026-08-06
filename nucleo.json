@@ -1,7 +1,7 @@
 {
     "version":  "0.54.0",
     "archivo":  "Obsidiant_0.54.0_x64-setup.exe",
-    "sha256":  "923831c80d2e34cfd1858f6e3663ff71c9324aa3192f3f87b113cd4e93ff67ac",
-    "bytes":  4937990,
+    "sha256":  "ca00c7a6cef840eaf1095acfa83709760306765d51aeb9e52f07e26ff3edef85",
+    "bytes":  4931749,
     "notas":  "El reinicio programado encendia solo un servidor que estaba parado a proposito. Hacia \"parar y arrancar\" sin mirar nada, y ahi esta la asimetria: parar algo ya parado no hace nada, pero arrancar algo parado si. Asi que un reinicio diario a las 06:00 -que es justo lo que ofrece el desplegable por defecto, reinicio a las 06:00 todos los dias- encendia el servidor cada manana aunque llevara una semana apagado. Con un modpack de 458 mods eso son minutos de arranque y luego el dia entero corriendo, porque el sueno ligero viene apagado de fabrica y nadie lo vuelve a parar. Se llama \"Reinicio\" y su propia descripcion dice \"parar bien y volver a arrancar\": volver a arrancar algo que no estaba arrancado no es reiniciar, es encender. Ahora hay una funcion en el nucleo que decide que hacer sabiendo si el servidor esta en marcha, con sus pruebas: reiniciar algo parado no hace nada y lo dice; apagar lo ya apagado tampoco; un comando sin consola a la que mandarlo se apunta en vez de perderse en silencio; y una copia sale igual, o mejor, con el servidor parado. Con el codigo de antes la prueba fallaba diciendo \"un reinicio con el servidor parado no hace PararYArrancar\". Y si lo que se quiere es que a las ocho este en marcha, ahora se pide por su nombre: hay una tarea nueva, Encender el servidor, que es la otra mitad de un horario de servidor -apagar de madrugada, encender por la manana- y que hasta ahora solo se conseguia de refilon, como efecto secundario de un reinicio. Esa no manda avisos a nadie, porque no hay nadie a quien avisar y un \"se reinicia en 5 minutos\" antes de encender seria mentira."
 }

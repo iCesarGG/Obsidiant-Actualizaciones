@@ -1,12 +1,12 @@
 {
-    "version":  "0.59.0",
+    "version":  "0.60.0",
     "nucleo_min":  "0.54.0",
-    "hecha_ms":  1786018446619,
-    "notas":  "El programador dice ahora que hace cada tarea cuando el servidor no esta como se espera, y hay una tarea nueva para encenderlo. Antes el desplegable ofrecia cuatro cosas con su nombre y nada mas, y la primera -reiniciar, a las 06:00, todos los dias- encendia el servidor si estaba parado, sin que eso se dijera en ningun sitio. Ahora, debajo del desplegable y al elegir, sale una linea que explica el caso raro de cada una: reiniciar solo si esta en marcha, y con el servidor parado no hace nada; apagar solo si esta en marcha, avisando en el chat cinco minutos y un minuto antes; encender solo si esta parado, que es la otra mitad de un horario; la copia da igual, de hecho sale mejor con el servidor parado; y un comando solo si hay consola a la que mandarlo. Y cuando una tarea programada no hace nada, se dice en la consola de la aplicacion con su hora y su motivo, en vez de saltarsela en silencio: una tarea que se salta callando se lee como que la aplicacion se olvido de ella.",
+    "hecha_ms":  1786019103016,
+    "notas":  "La linea que explica cada tarea del programador salia embutida entre los dias y el boton. Se le habia puesto flex-basis al 100 por ciento para que ocupara su propia fila, pero con el basis suelto el navegador la deja encogerse: acababa en una columna estrecha de dos lineas metida entre las siete casillas de los dias y el boton de Programar, leyendose como si fuera un mando mas y no una frase. Ahora va debajo de todo, en su propia fila y de lado a lado. Se vio mirando la pantalla, con la version recien instalada.",
     "archivos":  {
-                     "assets/index-BFzgHzbS.css":  "aebe56a8036ab70d8f9e7850dcbe2672ac100cf8a24a910b901a4a98bcb4a5a7",
-                     "assets/index-C20tETJC.js":  "63719e6a9bf76b255f3c054da0893d95fc9402209c915d617157b1ed0cda4215",
-                     "assets/window-BoJk7Gpq.js":  "21c7b6e8440f9c1a9148059189881e699117d6fdfab0b2e10f9f80322b7d863c",
-                     "index.html":  "cde894b59b16ff71d256678432527dcb79a63f7e2bb51a38269f502d80b2a490"
+                     "assets/index-AJup_3Km.css":  "6492c532be7480dcd28aa45e64b9e1e31d2d273b71be29d2821511ccf1631099",
+                     "assets/index-DgdvMF_N.js":  "c0b5d67a9141349f2fba66214dbc5a9a941a451dc2d9363ce7852182f0840f72",
+                     "assets/window-DxTJ7GBU.js":  "50baa0cbbc221055f9634bcc658a3e9cd2efcc9490dce27a18161297015fd7ba",
+                     "index.html":  "42d761319783fc023dfa9f29ea6bfd89d2671b1a3d21dae4177448fdb4759aca"
                  }
 }
