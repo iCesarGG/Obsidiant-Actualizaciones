@@ -1,12 +1,12 @@
 {
-    "version":  "0.58.0",
-    "nucleo_min":  "0.53.0",
-    "hecha_ms":  1785959750229,
-    "notas":  "Si una busqueda del bisector se queda a medias, ahora la pantalla lo ve y ofrece deshacerla. Antes no habia forma: la foto de como estaba la carpeta vivia en memoria y se perdia con la busqueda, asi que cerrar la ventana en medio -nueve arranques son tres cuartos de hora- o un renombrado fallido dejaban media lista de mods apagada para siempre. El propio comentario de la pantalla lo daba por perdido: \"si la ventana se cerro a media busqueda, el nucleo ya no la tiene\". Ahora, al abrir, si no hay ninguna busqueda viva se mira si quedo foto guardada, y si la carpeta no esta como dice sale un aviso arriba: cuantos mods siguen apagados por una busqueda que ya no existe, y un boton para dejar la carpeta exactamente igual que antes de empezar. En ambar y no en rojo, porque no se ha perdido nada: los mods estan todos ahi, solo renombrados.",
+    "version":  "0.59.0",
+    "nucleo_min":  "0.54.0",
+    "hecha_ms":  1786018446619,
+    "notas":  "El programador dice ahora que hace cada tarea cuando el servidor no esta como se espera, y hay una tarea nueva para encenderlo. Antes el desplegable ofrecia cuatro cosas con su nombre y nada mas, y la primera -reiniciar, a las 06:00, todos los dias- encendia el servidor si estaba parado, sin que eso se dijera en ningun sitio. Ahora, debajo del desplegable y al elegir, sale una linea que explica el caso raro de cada una: reiniciar solo si esta en marcha, y con el servidor parado no hace nada; apagar solo si esta en marcha, avisando en el chat cinco minutos y un minuto antes; encender solo si esta parado, que es la otra mitad de un horario; la copia da igual, de hecho sale mejor con el servidor parado; y un comando solo si hay consola a la que mandarlo. Y cuando una tarea programada no hace nada, se dice en la consola de la aplicacion con su hora y su motivo, en vez de saltarsela en silencio: una tarea que se salta callando se lee como que la aplicacion se olvido de ella.",
     "archivos":  {
-                     "assets/index-CB4AhGZs.css":  "d5e1e35c43abfbd8d475d1c4b562f45a4ecdc9e253d96bd7dae4e44c07e32fd4",
-                     "assets/index-zptiO9pp.js":  "dc6fe6e3ca169fbc481d8616edd83a336aec006126550dc762e83fc65c1a9e98",
-                     "assets/window-pjAGTQvq.js":  "8e612ee8c3b968ce55443c3db6234e7a7d1b10c56a5ffa8e435a3b6ed7e432b6",
-                     "index.html":  "1d4f0d58f1b4499cf1b47191f469cc31d9305b33ca1320fe0ff7aa750dc62abb"
+                     "assets/index-BFzgHzbS.css":  "aebe56a8036ab70d8f9e7850dcbe2672ac100cf8a24a910b901a4a98bcb4a5a7",
+                     "assets/index-C20tETJC.js":  "63719e6a9bf76b255f3c054da0893d95fc9402209c915d617157b1ed0cda4215",
+                     "assets/window-BoJk7Gpq.js":  "21c7b6e8440f9c1a9148059189881e699117d6fdfab0b2e10f9f80322b7d863c",
+                     "index.html":  "cde894b59b16ff71d256678432527dcb79a63f7e2bb51a38269f502d80b2a490"
                  }
 }
