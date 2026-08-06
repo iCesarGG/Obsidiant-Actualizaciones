@@ -1,12 +1,12 @@
 {
-    "version":  "0.60.0",
+    "version":  "0.61.0",
     "nucleo_min":  "0.54.0",
-    "hecha_ms":  1786019103016,
-    "notas":  "La linea que explica cada tarea del programador salia embutida entre los dias y el boton. Se le habia puesto flex-basis al 100 por ciento para que ocupara su propia fila, pero con el basis suelto el navegador la deja encogerse: acababa en una columna estrecha de dos lineas metida entre las siete casillas de los dias y el boton de Programar, leyendose como si fuera un mando mas y no una frase. Ahora va debajo de todo, en su propia fila y de lado a lado. Se vio mirando la pantalla, con la version recien instalada.",
+    "hecha_ms":  1786019668938,
+    "notas":  "La linea que explica cada tarea del programador ya ocupa su propia fila. El intento anterior le puso flex 0 0 100 por ciento, que es lo correcto, pero le dejo tambien un max-width de 74 caracteres, y ahi estaba el detalle: el tamano con el que flexbox decide donde cortar la fila es el basis ya recortado por min y max, asi que un max-width convierte ese 100 por ciento en 74 caracteres y la frase vuelve a caber al lado del boton. Quitado el max-width, la fila se parte donde tiene que partirse y la frase va debajo de todo, de lado a lado. Costo dos intentos y los dos se vieron mirando la pantalla, no en las pruebas; queda escrito en el propio CSS para que no cueste un tercero.",
     "archivos":  {
-                     "assets/index-AJup_3Km.css":  "6492c532be7480dcd28aa45e64b9e1e31d2d273b71be29d2821511ccf1631099",
-                     "assets/index-DgdvMF_N.js":  "c0b5d67a9141349f2fba66214dbc5a9a941a451dc2d9363ce7852182f0840f72",
-                     "assets/window-DxTJ7GBU.js":  "50baa0cbbc221055f9634bcc658a3e9cd2efcc9490dce27a18161297015fd7ba",
-                     "index.html":  "42d761319783fc023dfa9f29ea6bfd89d2671b1a3d21dae4177448fdb4759aca"
+                     "assets/index-BOaHwAo1.js":  "d5a59ff68cb7a08b02d4640c5e5866152c98f98224a32f05557a57cd795bc70e",
+                     "assets/index-CEMEcAVX.css":  "f264788b133a39740ba691327f8fbd285347b16b26f5bc106ed5d825c17449d6",
+                     "assets/window-vVrabA3K.js":  "3c8c7623d1cebbc720fd80eb4581581702066a6857d7a4358b1bfaef7a56584d",
+                     "index.html":  "4b0998847c0bb467b9fd55aa1fb22458a6dd4664a75f6a05a42fd64ca5885d06"
                  }
 }
