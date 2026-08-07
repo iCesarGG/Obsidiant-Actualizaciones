@@ -1,12 +1,12 @@
 {
-    "version":  "0.69.0",
+    "version":  "0.70.0",
     "nucleo_min":  "0.62.0",
-    "hecha_ms":  1786136327154,
-    "notas":  "Debajo del interruptor de copias automaticas sale ahora a quien protegen de verdad. Va pegado al interruptor y no al final de la tarjeta, porque es ahi donde se forma el malentendido: el interruptor esta dentro de un servidor y se lee como \"de este servidor\", y en realidad el ajuste es de la aplicacion entera y solo se copia el ultimo servidor que abriste. Desde el que si esta protegido la frase va en ambar y nombra a los que se quedan fuera; desde uno que no lo esta va en rojo, empieza por \"Ojo\" y dice cual se esta copiando en su lugar y como cambiarlo. Cuando no hay nada que aclarar —copias apagadas, o un solo servidor con mundo— no sale nada.",
+    "hecha_ms":  1786138123550,
+    "notas":  "Los botones de copiar decian \"Copiado\" sin haber copiado. src/lib/portapapeles.ts existe desde hace tandas precisamente para eso: el mismo trozo sin .catch estaba escrito cinco veces, y writeText se rechaza de verdad -un webview sin foco, un permiso que no esta-. Se arreglaron aquellas cinco y quedaron cuatro sitios sin migrar, que nadie habia vuelto a mirar. Dos de ellos se tragaban el fallo con un .catch vacio: el de la pantalla de caidas ponia \"Copiado\" igual, y el de copiar la direccion del servidor no hacia absolutamente nada -ni tic, ni error, ni pista-, que es el peor fallo que puede tener un boton porque no se distingue de que la aplicacion se haya colgado. El de copiar la placa de rendimiento tambien se lo tragaba, y ademas encendia el \"Copiado\" y no lo apagaba nunca.\n\nEl de caidas es el que mas duele: es el boton que se pulsa cuando el servidor lleva dias cayendose y hay que pedir ayuda pegando la evidencia. Decirle a alguien que ya lo tiene copiado y mandarlo a pegar un portapapeles vacio es peor que no tener boton.\n\nLos cuatro pasan ahora por copiarTexto, con el tic de la casa -1600 ms, que aqui eran 2500 y alli 1800 porque si- y con el fallo dicho en la linea de error que cada pantalla ya tenia.\n\nY la pantalla de diagnostico era el unico componente de los treinta que ponia String(e) en vez de errorText(e). Rust manda un objeto con message, asi que String de eso es \"[object Object]\": justo la pantalla que se abre cuando algo no funciona, y el unico sitio donde el texto del error ES la pantalla.\n\nLo que impide que vuelva a pasar: npm run tokens -una de las cuatro comprobaciones de cada tanda- se queja ahora tambien de cualquier navigator.clipboard fuera de portapapeles.ts. Si se traga el fallo, es error y no deja publicar; si lo trata a mano, es aviso y se cuenta con nombre y linea. Mira la sentencia entera y no la linea, porque la cadena viene partida en cuatro renglones y el .catch vacio cae tres mas abajo. Arreglar el sexto no impedia que apareciera el septimo; esto si.",
     "archivos":  {
                      "assets/index-D5CqhQI0.css":  "12e5f5ddb6995c974b8cf14a0bd32c9ab09796323ad36e5f1dcc59343ca16c6a",
-                     "assets/index-DEZvsyQ3.js":  "98c4c32217aa640264dfcb18907264c25d42861bbad313490f350f137c0ad230",
-                     "assets/window-DrLGhzqZ.js":  "2d89364efd5b9d7b5c437cc94f2392eb7249231f25e68b2908276b633000d14e",
-                     "index.html":  "ed46fe2a12cd1f0d4dd0f59f06aa6a19c5aa9e970c3cfa723cd1f1e1c0e36e81"
+                     "assets/index-Prl75wk9.js":  "1764bc34e5c9131b845b4a3baca655a0dcad965b0e863254fec6e1b13ae4f9c0",
+                     "assets/window-K54EMqpL.js":  "3aa2c9dd8c5e0e7af1c5568718c771842fe8b3f590482ae4ed18f015b596c2ce",
+                     "index.html":  "88340cafa1643705e2693fdc5c7c5809b2617ab11d5a2453422583849f880a4e"
                  }
 }
