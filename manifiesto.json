@@ -1,12 +1,12 @@
 {
-    "version":  "0.65.0",
-    "nucleo_min":  "0.58.0",
-    "hecha_ms":  1786057770693,
-    "notas":  "El ultimo paso del asistente, el de \"asi va a quedar\", ahora dice tambien lo que va a pasar de verdad. Debajo de las tarjetas y encima de la carpeta -que es lo ultimo que se lee antes de darle al boton- sale una franja con la frase: de donde sale el cargador, si ese archivo solo se guarda o se ejecuta, de que sitios se bajan los mods y cuantos se saltan por ser solo de cliente. Con Forge y NeoForge la frase dice con todas las letras que se va a ejecutar un programa bajado de internet, porque es lo que pasa. Con Fabric dice que no, porque tampoco hay que exagerar: gastar credibilidad avisando de lo que no es peligroso deja sin credibilidad el aviso que si lo es.",
+    "version":  "0.66.0",
+    "nucleo_min":  "0.59.0",
+    "hecha_ms":  1786071057533,
+    "notas":  "El boton de \"Entendido\" de la franja del mundo cambiado ahora se lo dice a Obsidiant, no solo a la ventana. Antes solo escondia la franja en el navegador, asi que volvia a salir en cuanto se recargaba la pantalla -y la pantalla se recarga sola cada vez que llega una interfaz nueva por el canal-. Ahora el aviso se olvida de verdad cuando lo has leido, y hasta entonces sigue ahi.",
     "archivos":  {
-                     "assets/index-BPf-DqjH.js":  "eac843b4388cd7e8eaef267d360c0b342910a7be06fb4142ae7c2da15c2b9869",
                      "assets/index-BYf-Wpm9.css":  "36451d4d88e1505e428693986a95afeb0d9aab55f0e197bb964cb946138b47b5",
-                     "assets/window-CDt5dAmc.js":  "4f4b017b0c831e2004bdded92cb10844aa3e4d774c26a0ab4c8339b738eb2977",
-                     "index.html":  "c24c6b0e444074332d57ef7cfe1f081124db3c96794e28b9148f63edf3b301a1"
+                     "assets/index-CVShAdN3.js":  "b470626b7e4d917d764d2080fe301747f52fb91f185c42fe190ddb8e95f10efb",
+                     "assets/window-DT3ujnDP.js":  "813000692f9f710c6fe54f94804f0fc21063ade8089f58c55a34701f72f72081",
+                     "index.html":  "6dea74126c9d0853f83a501d4b1e63cb2f1ac144b76e84f308fef3bd3cde3662"
                  }
 }
