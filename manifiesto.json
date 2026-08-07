@@ -1,12 +1,12 @@
 {
-    "version":  "0.67.0",
-    "nucleo_min":  "0.60.0",
-    "hecha_ms":  1786103024445,
-    "notas":  "El panel de restaurar una instantanea ya no pregunta a ciegas. Debajo de las zonas y pegadas al boton salen dos frases: de que mundo es esa copia, cuando no es el de ahora o cuando la copia es anterior a que esto existiera, y que se queda del mundo de hoy dentro del restaurado. Van ahi y no arriba con la fecha porque un aviso que hay que recordar de hace tres parrafos es un aviso que no cuenta, y van en rojo y no en ambar como la nota de la restauracion por zonas: aquella explica lo que has elegido, estas avisan de lo que no has elegido y va a pasar igual. Se vuelven a pedir cada vez que cambian las zonas, porque lo que se queda dentro depende de lo que se restaure y una frase calculada para el mundo entero ensenada al lado de \"solo el Nether\" diria un numero que no es.",
+    "version":  "0.68.0",
+    "nucleo_min":  "0.61.0",
+    "hecha_ms":  1786123130927,
+    "notas":  "Los botones de sugerencia de la consola no escribian lo que ponia en ellos. Al escribir un comando sale debajo una fila con lo que puede ir a continuacion; cada boton llamaba a la funcion de completar sin decirle cual se habia pulsado, asi que los siete hacian lo mismo: avanzar hasta el trozo en el que todas las opciones coinciden. Pulsar el boton que pone save-off escribia save-. Y si ese trozo comun ya estaba escrito -teclea save- y mira la fila-, la funcion se plantaba y no hacia absolutamente nada: siete botones muertos, sin ni siquiera un parpadeo que lo dijera. Ahora la eleccion viaja y el boton escribe su palabra entera, con el espacio detras listo para el hueco siguiente. El tabulador sigue haciendo lo de siempre, avanzar hasta donde no hay duda sin elegir por ti.\n\nDentro, el calculo de ese trozo comun podia colgar la ventana. Comparaba caracter a caracter sin tope, apoyandose en que una de las dos palabras se acabara antes; con dos opciones iguales las dos se acaban a la vez, la comparacion sale cierta para siempre y el bucle no termina. Medido: 4,2 millones de vueltas en 400 milisegundos y subiendo. Las opciones pueden ser nombres de jugadores, que salen de partir por comas la respuesta de list sin quitar repetidos.\n\nY la fila de sugerencias enseñaba siete y se callaba el resto, justo al lado de la fila de mods que si dice \"y N mas\". Con cuarenta jugadores dentro, escribir op enseñaba siete nombres y quien no viera el suyo concluia que no estaba conectado. Ahora tambien dice cuantos faltan.",
     "archivos":  {
-                     "assets/index-C7_5Ky21.js":  "b051c5434c2cb5c926b95ad39f13046201a93ca7924b1339cfa7bb0cd85b121b",
-                     "assets/index-CnKNfnK5.css":  "779e45ef79389b7d8892112025c079f8ff4dc56331d887139614e44961586b5a",
-                     "assets/window-ChbNd9W0.js":  "9f33d030bf94c7dab24d5dca8a547d4ab5c56482071ccc872c67ec5735c1b346",
-                     "index.html":  "09bbbfc1ee6aa1b4de5c3805060f2294c33085997c4d5011349be8d6ac4ab275"
+                     "assets/index-BBqnBoJr.js":  "59e350682c369daee5a358f47c2844084bcb26e706b24483edc6234bce0a27c4",
+                     "assets/index-BT_RKhtQ.css":  "bb952ca329e682b35c8b3e9bfdda7c415129a25c55f400355b0e6e6d444329e0",
+                     "assets/window-CRqPVLrc.js":  "8c8e0c41ff96c5d11c80478b42d3726cef8f8e5c1f416a5a4a378b58305972d7",
+                     "index.html":  "a7cd1ae26319265382fba4ae868c2c61682ef06802feb76d98cbd4c1af0c8e3a"
                  }
 }
