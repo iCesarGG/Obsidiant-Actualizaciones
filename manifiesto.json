@@ -1,12 +1,12 @@
 {
-    "version":  "0.66.0",
-    "nucleo_min":  "0.59.0",
-    "hecha_ms":  1786071057533,
-    "notas":  "El boton de \"Entendido\" de la franja del mundo cambiado ahora se lo dice a Obsidiant, no solo a la ventana. Antes solo escondia la franja en el navegador, asi que volvia a salir en cuanto se recargaba la pantalla -y la pantalla se recarga sola cada vez que llega una interfaz nueva por el canal-. Ahora el aviso se olvida de verdad cuando lo has leido, y hasta entonces sigue ahi.",
+    "version":  "0.67.0",
+    "nucleo_min":  "0.60.0",
+    "hecha_ms":  1786103024445,
+    "notas":  "El panel de restaurar una instantanea ya no pregunta a ciegas. Debajo de las zonas y pegadas al boton salen dos frases: de que mundo es esa copia, cuando no es el de ahora o cuando la copia es anterior a que esto existiera, y que se queda del mundo de hoy dentro del restaurado. Van ahi y no arriba con la fecha porque un aviso que hay que recordar de hace tres parrafos es un aviso que no cuenta, y van en rojo y no en ambar como la nota de la restauracion por zonas: aquella explica lo que has elegido, estas avisan de lo que no has elegido y va a pasar igual. Se vuelven a pedir cada vez que cambian las zonas, porque lo que se queda dentro depende de lo que se restaure y una frase calculada para el mundo entero ensenada al lado de \"solo el Nether\" diria un numero que no es.",
     "archivos":  {
-                     "assets/index-BYf-Wpm9.css":  "36451d4d88e1505e428693986a95afeb0d9aab55f0e197bb964cb946138b47b5",
-                     "assets/index-CVShAdN3.js":  "b470626b7e4d917d764d2080fe301747f52fb91f185c42fe190ddb8e95f10efb",
-                     "assets/window-DT3ujnDP.js":  "813000692f9f710c6fe54f94804f0fc21063ade8089f58c55a34701f72f72081",
-                     "index.html":  "6dea74126c9d0853f83a501d4b1e63cb2f1ac144b76e84f308fef3bd3cde3662"
+                     "assets/index-C7_5Ky21.js":  "b051c5434c2cb5c926b95ad39f13046201a93ca7924b1339cfa7bb0cd85b121b",
+                     "assets/index-CnKNfnK5.css":  "779e45ef79389b7d8892112025c079f8ff4dc56331d887139614e44961586b5a",
+                     "assets/window-ChbNd9W0.js":  "9f33d030bf94c7dab24d5dca8a547d4ab5c56482071ccc872c67ec5735c1b346",
+                     "index.html":  "09bbbfc1ee6aa1b4de5c3805060f2294c33085997c4d5011349be8d6ac4ab275"
                  }
 }
