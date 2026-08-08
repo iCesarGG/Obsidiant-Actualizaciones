@@ -1,7 +1,7 @@
 {
-    "version":  "0.71.0",
-    "archivo":  "Obsidiant_0.71.0_x64-setup.exe",
-    "sha256":  "5b93a54f8e5411a58f37afa9ae6aa69201ef185c5b4c2f7d34b706baaa447d8f",
-    "bytes":  5024674,
+    "version":  "0.72.0",
+    "archivo":  "Obsidiant_0.72.0_x64-setup.exe",
+    "sha256":  "8465c300e79898b904da693cb489c59664cf774d5e9be67dcebd38d5d4c0d4e8",
+    "bytes":  5027433,
     "notas":  "Forgie prometia \"esto arranca\" sobre jars que no habia podido abrir.\n\nEl titular de la pantalla de mods solo contaba las pegas GRAVES, y decia \"ninguna pega. Esto arranca\" en cuanto no habia ninguna. Pero \"no se puede leer este jar\" es un aviso, no una grave. Asi que un pack con tres jars rotos y nada mas se llevaba el titular entero:\n\n    458 mods y ninguna pega. Esto arranca.\n\n...con las tres lineas de \"No se puede leer\" ahi abajo, en la misma pantalla. El titular contradiciendo a la lista.\n\nY no es un matiz de redaccion. Un jar que no se abre es casi siempre una descarga a medias, y de eso no se sabe NADA: ni que mod es, ni de que cargador, ni que necesita. Prometer que arranca sobre lo que no se ha podido mirar es justo lo contrario de lo que hace este modulo, que se pasa mil novecientas lineas abriendo cada jar antes de opinar.\n\nAhora los cuenta. Sin graves pero con jars ciegos el titular dice que no puede prometer nada hasta saber que son; con las dos cosas, dice las dos, porque quedarse con una era elegir cual de los dos problemas se calla. Los apagados siguen sin contar: estan en la carpeta a proposito.\n\nCuatro pruebas nuevas; la primera falla con el codigo viejo.\n\nDel resto de mods.rs, nada que arreglar, y es el modulo mas trabajado de la casa. Lee los cuatro formatos de manifiesto, el TOML a mano porque los que escriben los autores no siempre son TOML valido, abre los jars empotrados en META-INF/jarjar para no acusar de \"falta X\" a un pack que trae X dentro de otro jar, y en los rangos de version se calla cuando no entiende, porque en una lista de trescientos mods nadie lee la alarma numero cuarenta."
 }

@@ -1,12 +1,12 @@
 {
-    "version":  "0.79.0",
-    "nucleo_min":  "0.71.0",
-    "hecha_ms":  1786215609860,
+    "version":  "0.80.0",
+    "nucleo_min":  "0.72.0",
+    "hecha_ms":  1786220045005,
     "notas":  "Forgie prometia \"esto arranca\" sobre jars que no habia podido abrir.\n\nEl titular de la pantalla de mods solo contaba las pegas GRAVES, y decia \"ninguna pega. Esto arranca\" en cuanto no habia ninguna. Pero \"no se puede leer este jar\" es un aviso, no una grave. Asi que un pack con tres jars rotos y nada mas se llevaba el titular entero:\n\n    458 mods y ninguna pega. Esto arranca.\n\n...con las tres lineas de \"No se puede leer\" ahi abajo, en la misma pantalla. El titular contradiciendo a la lista.\n\nY no es un matiz de redaccion. Un jar que no se abre es casi siempre una descarga a medias, y de eso no se sabe NADA: ni que mod es, ni de que cargador, ni que necesita. Prometer que arranca sobre lo que no se ha podido mirar es justo lo contrario de lo que hace este modulo, que se pasa mil novecientas lineas abriendo cada jar antes de opinar.\n\nAhora los cuenta. Sin graves pero con jars ciegos el titular dice que no puede prometer nada hasta saber que son; con las dos cosas, dice las dos, porque quedarse con una era elegir cual de los dos problemas se calla. Los apagados siguen sin contar: estan en la carpeta a proposito.\n\nCuatro pruebas nuevas; la primera falla con el codigo viejo.\n\nDel resto de mods.rs, nada que arreglar, y es el modulo mas trabajado de la casa. Lee los cuatro formatos de manifiesto, el TOML a mano porque los que escriben los autores no siempre son TOML valido, abre los jars empotrados en META-INF/jarjar para no acusar de \"falta X\" a un pack que trae X dentro de otro jar, y en los rangos de version se calla cuando no entiende, porque en una lista de trescientos mods nadie lee la alarma numero cuarenta.",
     "archivos":  {
-                     "assets/index-D2Wm5Vbq.css":  "829627de3f02af998fab96ad6acc5873a200ce0d04cac2f6ee6c7cb1f00d0428",
-                     "assets/index-H-Rsq5J7.js":  "82ae94a8c91e6867d5639dc73bb775757e984336d9f1fbcb00e3b834d9d78a6a",
-                     "assets/window-BuFfEmO-.js":  "bbc19843cb0af96f5ec0b844eba8445c3c070706d1998e102103c59bae85abca",
-                     "index.html":  "d3b1a606a8ce462f6fee0ad042c0df41a9e58f931c84181631d5915c60e7774a"
+                     "assets/index-CQFpgkqN.css":  "5906374843f2eaeb7f9ae8a3cb8b8189d5b340d947f891b206a0d1149bf5c743",
+                     "assets/index-CTMwiHok.js":  "5828aa8e75e44abef8f18308d86a211f6453c13e00e095ea7b28ae2ae83a5f8c",
+                     "assets/window-CWRoeluW.js":  "f520b4ea515f578563985c0dbfc7f25641e5f2e58d1319689daffa6f326472ec",
+                     "index.html":  "c5f3acb1d39ae6f859a0e5d50c72fdefccba8938e849561c5b1c61208577b6a5"
                  }
 }
