@@ -1,12 +1,12 @@
 {
-    "version":  "0.78.0",
+    "version":  "0.78.1",
     "nucleo_min":  "0.70.0",
-    "hecha_ms":  1786206992588,
+    "hecha_ms":  1786210417394,
     "notas":  "Forgie prometia \"esto arranca\" sobre jars que no habia podido abrir.\n\nEl titular de la pantalla de mods solo contaba las pegas GRAVES, y decia \"ninguna pega. Esto arranca\" en cuanto no habia ninguna. Pero \"no se puede leer este jar\" es un aviso, no una grave. Asi que un pack con tres jars rotos y nada mas se llevaba el titular entero:\n\n    458 mods y ninguna pega. Esto arranca.\n\n...con las tres lineas de \"No se puede leer\" ahi abajo, en la misma pantalla. El titular contradiciendo a la lista.\n\nY no es un matiz de redaccion. Un jar que no se abre es casi siempre una descarga a medias, y de eso no se sabe NADA: ni que mod es, ni de que cargador, ni que necesita. Prometer que arranca sobre lo que no se ha podido mirar es justo lo contrario de lo que hace este modulo, que se pasa mil novecientas lineas abriendo cada jar antes de opinar.\n\nAhora los cuenta. Sin graves pero con jars ciegos el titular dice que no puede prometer nada hasta saber que son; con las dos cosas, dice las dos, porque quedarse con una era elegir cual de los dos problemas se calla. Los apagados siguen sin contar: estan en la carpeta a proposito.\n\nCuatro pruebas nuevas; la primera falla con el codigo viejo.\n\nDel resto de mods.rs, nada que arreglar, y es el modulo mas trabajado de la casa. Lee los cuatro formatos de manifiesto, el TOML a mano porque los que escriben los autores no siempre son TOML valido, abre los jars empotrados en META-INF/jarjar para no acusar de \"falta X\" a un pack que trae X dentro de otro jar, y en los rangos de version se calla cuando no entiende, porque en una lista de trescientos mods nadie lee la alarma numero cuarenta.",
     "archivos":  {
                      "assets/index--wDK7DU6.css":  "09d41975cac7a975a7c9a7373a928ce17e1bf11c4bb86ce2254c326e130e174f",
-                     "assets/index-fOfW-N-x.js":  "79e3f30daa4b880902420e50c8ddd382e82bb0df40258898a385253de46c77aa",
-                     "assets/window-DCWv6Ixd.js":  "00ad85bc62cf91f706027ef72e85db32f8855c3dc2a6bfdce15da6a988e0e5c3",
-                     "index.html":  "ab5df50d4b7976dde198c0eedb0a386ac1e0b887550a50056660a3de60fcd850"
+                     "assets/index-KJP6V9MD.js":  "581ba5e49e6f7e9a2cc35bdf55cce51dd431dfd25d3b51fabbbea453d0622052",
+                     "assets/window-N7S_D1rb.js":  "a27a62dbb32d4a43c2bc4fb380fc3afbe0f565326d08c1be9e1bce7f6d7cca57",
+                     "index.html":  "49ccb4de904cd2ecfa6fd4eaffca59f648018c2d00b6a21045f274a83ddbe15d"
                  }
 }
