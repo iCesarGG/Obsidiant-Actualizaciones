@@ -1,8 +1,8 @@
 {
-    "version":  "0.97.0",
-    "nucleo_min":  "0.86.0",
-    "hecha_ms":  1786400125386,
-    "notas":  "El asistente decia «va a una carpeta al lado» cuando no era verdad.\n\nDOS AVISOS DISTINTOS QUE DECIAN LO MISMO\n\nEl paso 5 avisaba con una sola frase de dos cosas que no son la misma: que la\ncarpeta que le tocaba por nombre ya es de otro servidor tuyo —y entonces el\nnuevo va al lado— y que ahi quedo un montaje a medias, que se continua desde\ndonde se quedo. Lo segundo se anunciaba como lo primero, o sea al reves de lo\nque iba a pasar. Ahora son dos frases y cada una dice lo suyo.",
+    "version":  "0.98.0",
+    "nucleo_min":  "0.87.0",
+    "hecha_ms":  1786404573682,
+    "notas":  "Forgie decia «No hay ningun mod en la carpeta» con los 458 dentro.\n\nCUANDO NO SE PUEDE MIRAR, SE DICE\n\nSi la carpeta de mods esta y no se deja recorrer —un permiso, el antivirus con\nun jar abierto, el disco que se solto— el titular grande de Forgie afirmaba que\nno habia ninguno, y la linea de debajo decia «0 MB en la carpeta». La lista de\nabajo ya lo distinguia; el titular, no.\n\nY CUANDO NO SE SABE EL CARGADOR, TAMPOCO SE INVENTA\n\nSi el apunte de la biblioteca se pierde, antes se daba por hecho que el\nservidor no tenia cargador: los 458 mods salian con una pega grave cada uno,\n«458 cosas que van a dar problemas», y un boton «Apagar» en cada tarjeta. Ahora\nson tres estados —lo se y es este, lo se y no tiene, no lo se— y con el tercero\nno se acusa a nadie, no se firma un filtro que no existe en el buscador, y no\nse instala a ciegas. Los duplicados y las dependencias que faltan si se siguen\navisando: antes esa acusacion las tapaba todas.\n\nQUIEN MANDA Y QUIEN ESTA VETADO\n\nEn «Quien juega aqui», un ops.json o un banned-players.json que no se deja leer\nya no se calla: se dice en el titular aunque la lista este llena, porque si no,\nalguien sale como jugador normal siendo operador o estando expulsado.\n\nY DOS COSAS PEQUENAS\n\nEl diagnostico de red pintaba la chapa roja con ⚠ dentro de una caja ambar\ncuando el veredicto era «no lo se», identica a un CGNAT confirmado. Y en Salud,\nel mismo cero salia como «0 KB» arriba y «0 B» abajo, a dos centimetros.",
     "archivos":  {
                      "assets/familjen-grotesk-latin-400-normal-DOvmqNol.woff2":  "3d6a8c01c6c02ddf0978cba8290f58bd44cec83cc6e22af4b906238313073a45",
                      "assets/familjen-grotesk-latin-400-normal-DYohiwGD.woff":  "5e5ac6617f255932c0e842465960cd8d10531258fe1e6a09ca55fc705a664f69",
@@ -14,8 +14,8 @@
                      "assets/familjen-grotesk-latin-ext-400-normal-uP2AiLOF.woff":  "51a331f5eddc72bddc89cba7e1525a60ce072d1730e24cfecccbb0ba58ee2787",
                      "assets/familjen-grotesk-latin-ext-600-normal-Bm1Bk2lg.woff":  "fc5459bb59ef26376f75766f02682e9a33fb284de1431f4130e0dfe9c85b7bdb",
                      "assets/familjen-grotesk-latin-ext-600-normal-K2kKrvU3.woff2":  "5585819b723734cc75b8fbb85d26e065eadcd8b4ca5d6cec47a8c724e75e279f",
-                     "assets/index-CLVL8vWL.css":  "2c5de9904de851ca5ad9edcb75acbf945f02e3ff23ebf4dcb5ebc16d7da850be",
-                     "assets/index-R_U4Hkob.js":  "3b3b5454e34be8804135bc98e2e4692164c13eff3165c2c20477a6c46e6bf0ee",
+                     "assets/index-BTcTKRq0.css":  "7c590720c639b84f3141bdf18262c8b8a451c0ca85f5ef8627955c6d8e271ab8",
+                     "assets/index-C0rcl-Yn.js":  "bb48fb126583bdbeb2ce5c446609fdea061ab14c9344ddddaf2cc38504de5313",
                      "assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff":  "658b9ee07b0249cf910a8d6f3d812d46c962bae81d7379a0355b1db35c61586f",
                      "assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2":  "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
                      "assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2":  "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
@@ -24,7 +24,7 @@
                      "assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff":  "5e7319f25a5ef89d2c01c323029ef0bedefad204108e601455ff6f8ae12ca3ff",
                      "assets/jetbrains-mono-latin-ext-400-normal-Bc8Ftmh3.woff2":  "505dfba8ecbe77e82765f36d317ed7ef4ac42719dc5f4ae68d1c483fd22d0d14",
                      "assets/jetbrains-mono-latin-ext-400-normal-fXTG6kC5.woff":  "e7131bbf591e1ed9b74e44e162f6a39affa00ac21654cb683585d085733f6355",
-                     "assets/window-DFhPlxBV.js":  "d0da04e3c0d17777a285b29d81f1c65f7b59c0155cd5d28fe80338e4aacb4902",
-                     "index.html":  "5dbb0eaeed9cdc17ed524b2a23943cd092f78894e435d5e4194c8dbca45e71b1"
+                     "assets/window-BGSfg_Zk.js":  "640138b536412ec1e23930f60f7a40f213968f5f6ee80c8f161b76423c1570fe",
+                     "index.html":  "9c53b76966539c60ca9e65fc1a66e9c2a208b8cdeb3aca1234f6e80c8adac283"
                  }
 }
