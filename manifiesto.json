@@ -1,12 +1,30 @@
 {
-    "version":  "0.90.0",
-    "nucleo_min":  "0.80.0",
-    "hecha_ms":  1786316330105,
-    "notas":  "Lo que un boton va a borrar, dicho antes de pulsarlo.\n\nCUANTAS INSTANTANEAS GUARDAS\n\nGuardas diez. Eso significa que la once borra la primera, para siempre. En\nningun sitio de la pantalla de Instantaneas se decia: ni el numero, ni un aviso\nantes, ni un recibo despues. Y el numero se podia cambiar, si — en la pestaña\nde los zips, debajo de una etiqueta que dice «Copias a guardar». Quien vive en\nInstantaneas no tenia forma de saberlo.\n\nAhora sale ahi mismo, se puede cambiar ahi mismo, y dice cual se va a ir: «Ya\nhay 10, asi que la siguiente se llevara la mas vieja — la del 03 ago, 14:12 —\npara siempre.» Y el recibo lo confirma cuando pasa.\n\nDOS PREGUNTAS QUE SE APAGABAN LA UNA A LA OTRA\n\nEl bloque de arriba de Instantaneas llevaba cinco cosas distintas en un solo\nsitio, todas colgando de la misma condicion: el veredicto de si las copias\nestan enteras, el parte de la ultima comprobacion a fondo, el interruptor de la\nautomatica, el boton de lanzarla y su resultado.\n\nSi una sola lectura fallaba —la carpeta de copias no se deja leer— desaparecian\nlas cuatro funciones de golpe y sin decir que faltaban.\n\nAhora son dos tarjetas con dueños distintos: «¿estan enteras?» y «¿son las que\ndicen ser?». Cada una puede fallar y contarlo sin apagar a la otra. Y si no se\npudo comprobar, se dice — que no es lo mismo que estar mal.\n\n«DAÑADA» Y «NO SE DEJO LEER» NO SON LO MISMO\n\nUna pieza que no se deja leer puede que este perfecta; solo que no lo sabemos.\nEsa frase estaba escrita, con esas palabras, en el resultado de la comprobacion\nen vivo. Y noventa lineas mas arriba, el veredicto guardado —el que se ve sin\npulsar nada— las sumaba y las llamaba «dañadas» a todas.\n\nAhora hay una sola funcion que traduce esos dos numeros a palabras, asi que no\nse pueden volver a contradecir.\n\nRESTAURAR DEJA DE MENTIR CON LA BARRA\n\nRestaurar hace dos cosas largas seguidas: primero guarda el mundo de ahora por\nsi acaso, y luego escribe la copia. Las dos avisaban por el mismo sitio, asi\nque la barra subia hasta «Restaurando 10.993 de 10.993 · 100 %» con tu mundo\ntodavia intacto, volvia a cero y subia otra vez. Ese primer 100 % era mentira\ndos veces.\n\nAhora cada fase dice su nombre. Y el boton «Dejarlo como esta», que durante la\nrestauracion seguia pulsable y no paraba nada, ya no se puede pulsar — con la\nfrase de lo que no se puede hacer: esto no se para a mitad.\n\nCAMBIAR DE DISCO YA NO ES UN CLIC\n\nEl disco de las copias se elige para TODA la aplicacion, no para el servidor\nabierto. Eso ya estaba escrito en la pantalla... dentro del bloque que aparece\ncuando ya has dejado copias huerfanas por ahi. Ahora se pregunta antes, diciendo\na donde iran las nuevas y que lo que ya esta no se mueve ni se borra.\n\nY la baldosa que salia encendida no era la del ajuste: se calculaba de la ruta\ndel servidor abierto, asi que con un servidor montado por Obsidiant salia\nmarcado el disco equivocado — y pulsar el que parecia ya elegido cambiaba el\najuste de todo.\n\n77 pruebas de interfaz.",
+    "version":  "0.97.0",
+    "nucleo_min":  "0.86.0",
+    "hecha_ms":  1786400125386,
+    "notas":  "El asistente decia «va a una carpeta al lado» cuando no era verdad.\n\nDOS AVISOS DISTINTOS QUE DECIAN LO MISMO\n\nEl paso 5 avisaba con una sola frase de dos cosas que no son la misma: que la\ncarpeta que le tocaba por nombre ya es de otro servidor tuyo —y entonces el\nnuevo va al lado— y que ahi quedo un montaje a medias, que se continua desde\ndonde se quedo. Lo segundo se anunciaba como lo primero, o sea al reves de lo\nque iba a pasar. Ahora son dos frases y cada una dice lo suyo.",
     "archivos":  {
-                     "assets/index-BrHNhuC4.css":  "61b06f02fbe12d021d7bade6b9c4205c830eb789be42cb185fee346e7eeb83d2",
-                     "assets/index-DLJvdSaO.js":  "bb894e020bca88c1f58160c50f51bab1e43c38cfd6e0d60020ed22b55cf85e64",
-                     "assets/window-Bk8IVsMo.js":  "385b5372825bada89437664e595807293b60e6afb3f608862f2260dec1f54a00",
-                     "index.html":  "aac89b5736f695f99394217a3245153689014247df020f3b6450ea06f768f9b8"
+                     "assets/familjen-grotesk-latin-400-normal-DOvmqNol.woff2":  "3d6a8c01c6c02ddf0978cba8290f58bd44cec83cc6e22af4b906238313073a45",
+                     "assets/familjen-grotesk-latin-400-normal-DYohiwGD.woff":  "5e5ac6617f255932c0e842465960cd8d10531258fe1e6a09ca55fc705a664f69",
+                     "assets/familjen-grotesk-latin-600-normal-Cchso0CV.woff":  "9cc278019a6b6738b632e31170b96fc34f90b7117a24273bc57c08244af74982",
+                     "assets/familjen-grotesk-latin-600-normal-DR8FYmV8.woff2":  "4becdcd6d182685a5bc7f961e49f8991538cd42acabf4ffbba72654f26743620",
+                     "assets/familjen-grotesk-latin-700-normal-Cqh4U_Q6.woff":  "a6f34cd9c7fd63a0a0eabde57219a4572229c88cea03ccb5957e64a2e586ef49",
+                     "assets/familjen-grotesk-latin-700-normal-DP3KK2u2.woff2":  "e1ebaed103ed999431a836736057a12e8e2d2b1e97d79c751cd1cb75776d5bee",
+                     "assets/familjen-grotesk-latin-ext-400-normal-CKjrzSH-.woff2":  "ab2fee5640ba8bd1b84438b3f9e28143282f1c2fbbb164f3955502d464970966",
+                     "assets/familjen-grotesk-latin-ext-400-normal-uP2AiLOF.woff":  "51a331f5eddc72bddc89cba7e1525a60ce072d1730e24cfecccbb0ba58ee2787",
+                     "assets/familjen-grotesk-latin-ext-600-normal-Bm1Bk2lg.woff":  "fc5459bb59ef26376f75766f02682e9a33fb284de1431f4130e0dfe9c85b7bdb",
+                     "assets/familjen-grotesk-latin-ext-600-normal-K2kKrvU3.woff2":  "5585819b723734cc75b8fbb85d26e065eadcd8b4ca5d6cec47a8c724e75e279f",
+                     "assets/index-CLVL8vWL.css":  "2c5de9904de851ca5ad9edcb75acbf945f02e3ff23ebf4dcb5ebc16d7da850be",
+                     "assets/index-R_U4Hkob.js":  "3b3b5454e34be8804135bc98e2e4692164c13eff3165c2c20477a6c46e6bf0ee",
+                     "assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff":  "658b9ee07b0249cf910a8d6f3d812d46c962bae81d7379a0355b1db35c61586f",
+                     "assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2":  "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
+                     "assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2":  "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
+                     "assets/jetbrains-mono-latin-500-normal-CJOVTJB7.woff":  "a270dd0bf13d91053b8999b7c120ffadb59680cfd63fe1a6b388a13bf2809fe1",
+                     "assets/jetbrains-mono-latin-700-normal-BYuf6tUa.woff2":  "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8",
+                     "assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff":  "5e7319f25a5ef89d2c01c323029ef0bedefad204108e601455ff6f8ae12ca3ff",
+                     "assets/jetbrains-mono-latin-ext-400-normal-Bc8Ftmh3.woff2":  "505dfba8ecbe77e82765f36d317ed7ef4ac42719dc5f4ae68d1c483fd22d0d14",
+                     "assets/jetbrains-mono-latin-ext-400-normal-fXTG6kC5.woff":  "e7131bbf591e1ed9b74e44e162f6a39affa00ac21654cb683585d085733f6355",
+                     "assets/window-DFhPlxBV.js":  "d0da04e3c0d17777a285b29d81f1c65f7b59c0155cd5d28fe80338e4aacb4902",
+                     "index.html":  "5dbb0eaeed9cdc17ed524b2a23943cd092f78894e435d5e4194c8dbca45e71b1"
                  }
 }
