@@ -1,8 +1,8 @@
 {
-    "version":  "1.0.0",
-    "nucleo_min":  "0.89.0",
-    "hecha_ms":  1786471163971,
-    "notas":  "La lista blanca en blanco significaba dos cosas a la vez.\n\nLA LISTA BLANCA: «NO PUDE PREGUNTAR» NO ES «NO HAY NADIE»\n\nEn Jugadores, la lista blanca se pintaba solo si tenia gente. Si el servidor no\ncontestaba a tiempo —el ATM10 copiando en caliente a X: tarda mas de los cuatro\nsegundos que se le esperan— el hueco quedaba exactamente igual que si la lista\nestuviera vacia: sin una senal, con los botones de Encender y Apagar al lado.\nY con la lista blanca encendida, «vacia» significa que no entra nadie.\n\nAhora son tres respuestas: preguntando, no pude leerla y por que, o los\nnombres. La pantalla estrena ademas sus primeras pruebas: no tenia ninguna.\n\nDEBAJO DE «NO VUELVAS A VINCULAR» YA NO HAY UN BOTON DE VINCULAR\n\nCuando la clave de playit esta en el equipo y no se deja leer, salia el aviso\n—bien— y justo debajo el boton «Vincular con playit», que es lo unico que la\nfrase pide no hacer. Ahora no sale ninguno de los tres: ni vincular, que gasta\nun agente de tu cuenta; ni «Desvincular», que borra el archivo que el aviso\npide no borrar; ni «Encender», que no puede con una clave que no se lee.\n\nY como esconder un boton sin decir por que es su propio fallo, debajo va la\nsalida: «¿Y si no se arregla?» explica que casi siempre es el antivirus, y que\nsi sigue igual saques el archivo de la carpeta a mano —al escritorio, sin\nborrarlo—. En cuanto no este, la pantalla vuelve a ofrecer vincular sola.\n\nEL TUNEL CAIDO YA NO TE OFRECE COPIAR UNA DIRECCION MUERTA\n\nEse estado solo se alcanza de una forma: el agente se murio solo. Y ahi la\npantalla decia «Esto es lo que le pasas a tus amigos» encima de la direccion,\ncon su boton de Copiar, y debajo «El tunel existe pero esta apagado» — que se\nlee como «lo apagaste tu». La direccion se sigue viendo, porque es la que el\ngrupo tiene en el chat y hay que poder reconocerla; lo que cambia es lo que se\ndice de ella.\n\nY EN SALUD, LO QUE NO SE PUDO MEDIR\n\nAntes de las cifras sale lo que no se pudo medir, porque cambia lo que\nsignifican: donde habia un «0 KB» que parecia un dato ahora pone «no lo se».",
+    "version":  "1.1.0",
+    "nucleo_min":  "0.90.0",
+    "hecha_ms":  1786489225245,
+    "notas":  "La consola deja de estorbar. La flecha abajo ya no borra el comando que estabas\nescribiendo. Con la busqueda abierta la vista ya no da saltos mientras el\nservidor escribe. El filtro por mod se queda puesto aunque ese mod deje de\nhablar. Y las ordenes escritas con dos barras (//stop, //op, //kill) ahora\npiden confirmacion igual que con una: antes se mandaban sin preguntar.\n\nLas macros sobreviven al cambio de seccion. Antes, salir de la consola a mitad\nde una macro la cortaba en silencio: con la de copia en caliente eso dejaba el\nservidor sin guardar sin que nadie se enterara. Ahora siguen hasta el final, y\nsi algo las corta se dice en pantalla.\n\nEl asistente de montaje deja de contradecirse. La version del modpack ya no\npisa la de Minecraft que habias elegido. El resumen final dice tambien, en la\nrama sin mods, que se acepta en tu nombre la licencia de Mojang. El aviso de\nmemoria ya no describe una cifra distinta de la que tienes delante. Con el\nenlace de un modpack pegado sale su nombre y no la direccion entera. Y cuando\nel analisis de la red no puede medir algo, se pinta en ambar y no con el rojo\nde lo que no se puede hacer.",
     "archivos":  {
                      "assets/familjen-grotesk-latin-400-normal-DOvmqNol.woff2":  "3d6a8c01c6c02ddf0978cba8290f58bd44cec83cc6e22af4b906238313073a45",
                      "assets/familjen-grotesk-latin-400-normal-DYohiwGD.woff":  "5e5ac6617f255932c0e842465960cd8d10531258fe1e6a09ca55fc705a664f69",
@@ -14,8 +14,8 @@
                      "assets/familjen-grotesk-latin-ext-400-normal-uP2AiLOF.woff":  "51a331f5eddc72bddc89cba7e1525a60ce072d1730e24cfecccbb0ba58ee2787",
                      "assets/familjen-grotesk-latin-ext-600-normal-Bm1Bk2lg.woff":  "fc5459bb59ef26376f75766f02682e9a33fb284de1431f4130e0dfe9c85b7bdb",
                      "assets/familjen-grotesk-latin-ext-600-normal-K2kKrvU3.woff2":  "5585819b723734cc75b8fbb85d26e065eadcd8b4ca5d6cec47a8c724e75e279f",
-                     "assets/index-CudVKnaY.css":  "a8c158674e823c669eee6bfa642ebb09bd78d3fbbb4ee93047464e6f3530adc2",
-                     "assets/index-DNH8nAYL.js":  "babd0ec1b46ec8643faf046e08dc78ea79268746d18b3fdb808c38a64855e121",
+                     "assets/index-C1WXXIw1.js":  "0f2a57b71965c5426f0b762b94d2ee933a1d1253ace67c65ba0dc03afe84fc50",
+                     "assets/index-CBHIFn-j.css":  "ff19214c174cd43d25def1492f9cf23b621256b1c595b6a7b55a8c1621b8bbef",
                      "assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff":  "658b9ee07b0249cf910a8d6f3d812d46c962bae81d7379a0355b1db35c61586f",
                      "assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2":  "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
                      "assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2":  "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
@@ -24,7 +24,7 @@
                      "assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff":  "5e7319f25a5ef89d2c01c323029ef0bedefad204108e601455ff6f8ae12ca3ff",
                      "assets/jetbrains-mono-latin-ext-400-normal-Bc8Ftmh3.woff2":  "505dfba8ecbe77e82765f36d317ed7ef4ac42719dc5f4ae68d1c483fd22d0d14",
                      "assets/jetbrains-mono-latin-ext-400-normal-fXTG6kC5.woff":  "e7131bbf591e1ed9b74e44e162f6a39affa00ac21654cb683585d085733f6355",
-                     "assets/window-TCXp4li5.js":  "a6c80ea9fcdede94ccf1dffaf8d8157f002efae00ff24596a8a14fd4c78d86df",
-                     "index.html":  "1cdeffd9b824ae6c27e19f9b71175b875379c4a59a5e2c964ea79c415e664152"
+                     "assets/window-D2IivNiB.js":  "e598f79b77976e8951af0e7c90dc189322e1eda3347cfcb4ce55765c6397aefb",
+                     "index.html":  "3ab6b213ebb8febe292aaf8696d8b6ef2e4c72e06944ad65b7b8fe0e171b5a42"
                  }
 }
