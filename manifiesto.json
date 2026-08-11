@@ -1,8 +1,8 @@
 {
-    "version":  "0.98.0",
-    "nucleo_min":  "0.87.0",
-    "hecha_ms":  1786404573682,
-    "notas":  "Forgie decia «No hay ningun mod en la carpeta» con los 458 dentro.\n\nCUANDO NO SE PUEDE MIRAR, SE DICE\n\nSi la carpeta de mods esta y no se deja recorrer —un permiso, el antivirus con\nun jar abierto, el disco que se solto— el titular grande de Forgie afirmaba que\nno habia ninguno, y la linea de debajo decia «0 MB en la carpeta». La lista de\nabajo ya lo distinguia; el titular, no.\n\nY CUANDO NO SE SABE EL CARGADOR, TAMPOCO SE INVENTA\n\nSi el apunte de la biblioteca se pierde, antes se daba por hecho que el\nservidor no tenia cargador: los 458 mods salian con una pega grave cada uno,\n«458 cosas que van a dar problemas», y un boton «Apagar» en cada tarjeta. Ahora\nson tres estados —lo se y es este, lo se y no tiene, no lo se— y con el tercero\nno se acusa a nadie, no se firma un filtro que no existe en el buscador, y no\nse instala a ciegas. Los duplicados y las dependencias que faltan si se siguen\navisando: antes esa acusacion las tapaba todas.\n\nQUIEN MANDA Y QUIEN ESTA VETADO\n\nEn «Quien juega aqui», un ops.json o un banned-players.json que no se deja leer\nya no se calla: se dice en el titular aunque la lista este llena, porque si no,\nalguien sale como jugador normal siendo operador o estando expulsado.\n\nY DOS COSAS PEQUENAS\n\nEl diagnostico de red pintaba la chapa roja con ⚠ dentro de una caja ambar\ncuando el veredicto era «no lo se», identica a un CGNAT confirmado. Y en Salud,\nel mismo cero salia como «0 KB» arriba y «0 B» abajo, a dos centimetros.",
+    "version":  "0.99.0",
+    "nucleo_min":  "0.88.0",
+    "hecha_ms":  1786419999133,
+    "notas":  "Una lista vacia dejaba de significar dos cosas a la vez.\n\nQUIEN PUEDE ENTRAR: LA LISTA VACIA NO ES TU LISTA\n\nSi remoto.json no se dejaba leer —una coma de mas puesta a mano, el antivirus\ncon el archivo cogido, un corte de luz— la pantalla pintaba los ajustes de\nfabrica como si fueran los tuyos: «La puerta esta abierta: cualquiera de tu\nlista puede entrar», encima de una lista vacia que no era tu lista. Ahora se\ndice arriba y con todas las letras, y lo que sale de memoria —quien esta\ndentro, el registro, las castigadas— se sigue viendo, porque eso si es verdad.\n\n«ESTAS EN LA ULTIMA» CUANDO NO SE HA PODIDO PREGUNTAR\n\nEl recuadro del nucleo repregunta solo cada cinco minutos. Si esa vuelta\nfallaba, el titular seguia afirmando en negrita una version, y encima borraba\nel error que acababas de leer al pulsar Buscar. Ahora, debajo del titular:\n«Esto es de la ultima vez que se pudo preguntar. Ahora mismo: …». Un aviso de\nfirma se ensena siempre, falle lo que falle.\n\nACTUALIZAR LA VENTANA YA NO PUEDE TIRARTE EL SERVIDOR\n\nAplicar una interfaz nueva promete que el servidor que este encendido sigue\nencendido. Y lo cumplia, salvo cuando la nueva no daba senales de vida: a los\nquince segundos la vigilancia reiniciaba el programa entero. El mundo se\nguardaba —eso estaba blindado— pero el ATM10 tardaba minutos en volver y a tus\namigos se les caia el tunel debajo. Ahora, con algo vivo, se vuelve a la\ninterfaz de siempre en esa misma ventana, sin cerrar nada.\n\nY LA VERSION BAJADA QUE «NO SE PUEDE APLICAR» ERA EL FINAL NORMAL\n\nCada tanda que sube el nucleo dejaba una interfaz caduca en el disco, y eso\nsalia en ambar como una averia, para siempre y sin nada que hacer. Es lo que\npasa cuando haces caso y reconstruyes: el nucleo nuevo ya trae esa interfaz\ndentro. Una huella que no cuadra si sigue avisando.\n\nY EL REPARTO DE SALUD\n\nLa barra de «es culpa de Minecraft?» rehacia la cuenta que el nucleo ya habia\nhecho, con la regla de antes de que las copias pudieran vivir en otro disco.\nLa frase decia «el servidor solo pone 200 MB de los 3 GB» y la barra, dos\ncentimetros mas abajo, pintaba al servidor con el 65 %.",
     "archivos":  {
                      "assets/familjen-grotesk-latin-400-normal-DOvmqNol.woff2":  "3d6a8c01c6c02ddf0978cba8290f58bd44cec83cc6e22af4b906238313073a45",
                      "assets/familjen-grotesk-latin-400-normal-DYohiwGD.woff":  "5e5ac6617f255932c0e842465960cd8d10531258fe1e6a09ca55fc705a664f69",
@@ -15,7 +15,7 @@
                      "assets/familjen-grotesk-latin-ext-600-normal-Bm1Bk2lg.woff":  "fc5459bb59ef26376f75766f02682e9a33fb284de1431f4130e0dfe9c85b7bdb",
                      "assets/familjen-grotesk-latin-ext-600-normal-K2kKrvU3.woff2":  "5585819b723734cc75b8fbb85d26e065eadcd8b4ca5d6cec47a8c724e75e279f",
                      "assets/index-BTcTKRq0.css":  "7c590720c639b84f3141bdf18262c8b8a451c0ca85f5ef8627955c6d8e271ab8",
-                     "assets/index-C0rcl-Yn.js":  "bb48fb126583bdbeb2ce5c446609fdea061ab14c9344ddddaf2cc38504de5313",
+                     "assets/index-NTqMz4xO.js":  "26acdabc41dac8674ab2eb89d2c61a33b114fdd51086c381aeb885e94041db34",
                      "assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff":  "658b9ee07b0249cf910a8d6f3d812d46c962bae81d7379a0355b1db35c61586f",
                      "assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2":  "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
                      "assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2":  "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
@@ -24,7 +24,7 @@
                      "assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff":  "5e7319f25a5ef89d2c01c323029ef0bedefad204108e601455ff6f8ae12ca3ff",
                      "assets/jetbrains-mono-latin-ext-400-normal-Bc8Ftmh3.woff2":  "505dfba8ecbe77e82765f36d317ed7ef4ac42719dc5f4ae68d1c483fd22d0d14",
                      "assets/jetbrains-mono-latin-ext-400-normal-fXTG6kC5.woff":  "e7131bbf591e1ed9b74e44e162f6a39affa00ac21654cb683585d085733f6355",
-                     "assets/window-BGSfg_Zk.js":  "640138b536412ec1e23930f60f7a40f213968f5f6ee80c8f161b76423c1570fe",
-                     "index.html":  "9c53b76966539c60ca9e65fc1a66e9c2a208b8cdeb3aca1234f6e80c8adac283"
+                     "assets/window-CuSuQAGk.js":  "de8cf7daa5f77f665b0734a63f56b354bf0b1369754b7a2911f4470b49bc03c9",
+                     "index.html":  "3eca903cf9ef4c4af920343b54408c548fd7c435c0c88dc27aaf4eb129535a21"
                  }
 }
