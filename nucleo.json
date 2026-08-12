@@ -1,7 +1,7 @@
 {
-    "version":  "0.91.0",
-    "archivo":  "Obsidiant_0.91.0_x64-setup.exe",
-    "sha256":  "6b59c8ed143553f3d83dbd91140650deed0dd2c2e987eae8debd2d36ed5b27fe",
-    "bytes":  5505784,
-    "notas":  "Obsidiant ya sabe quien es cada mod de tu carpeta. Hasta ahora no lo sabia: un\njar solo dice su nombre y su modid, y ninguno de los dos sirve para preguntar\npor su version nueva. Ahora se identifica por la huella del archivo, que es lo\nque Modrinth entiende, y en una sola consulta para los cuatrocientos y pico.\n\nDe donde vino cada mod se apunta en disco, asi que no hay que volver a\npreguntarlo cada vez. Cuando instalas uno desde la propia aplicacion, se\napunta en el momento, que es cuando se sabe de cierto.\n\nSolo Modrinth: CurseForge exige una clave de API y firmar una clausula de no\ncompetencia, y muchos de sus mods prohiben la redistribucion. Un mod de\nCurseForge sale honestamente como \"no lo conozco\", nunca como \"esta al dia\"."
+    "version":  "0.92.0",
+    "archivo":  "Obsidiant_0.92.0_x64-setup.exe",
+    "sha256":  "e98cfc803184c17369320cc053741085423e5a70cdb82dbecae443a0ff71a5e5",
+    "bytes":  5562216,
+    "notas":  "Obsidiant ya sabe sustituir un mod por su version nueva sin perder nada.\n\nNada se borra: el jar viejo se mueve a mods_retirados, nunca se elimina. Antes\nde tocar un solo archivo se apunta en disco que se va a hacer, y si eso no se\npuede escribir, no se empieza. Si algo falla a mitad, se devuelve todo lo que\nya se habia cambiado y la carpeta queda exactamente como estaba.\n\nForgie ahora comprueba tres cosas que antes no miraba, y las tres son motivos\nreales de que un servidor no arranque: la version que pide cada mod de sus\ndependencias (no solo si estan o no), las dependencias declaradas opcionales\ncon rango (el cargador si las exige cuando el mod esta puesto), y la version\ndel cargador que pide cada mod, que es la causa numero uno.\n\nY cuando no puede comprobar algo, lo dice en vez de callarse. Un mod cuya\nversion no se deja comparar ya no se cuenta como arreglado ni como roto: se\ndice que no se sabe."
 }
