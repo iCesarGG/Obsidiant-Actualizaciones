@@ -1,8 +1,8 @@
 {
-    "version":  "1.1.0",
-    "nucleo_min":  "0.90.0",
-    "hecha_ms":  1786489225245,
-    "notas":  "La consola deja de estorbar. La flecha abajo ya no borra el comando que estabas\nescribiendo. Con la busqueda abierta la vista ya no da saltos mientras el\nservidor escribe. El filtro por mod se queda puesto aunque ese mod deje de\nhablar. Y las ordenes escritas con dos barras (//stop, //op, //kill) ahora\npiden confirmacion igual que con una: antes se mandaban sin preguntar.\n\nLas macros sobreviven al cambio de seccion. Antes, salir de la consola a mitad\nde una macro la cortaba en silencio: con la de copia en caliente eso dejaba el\nservidor sin guardar sin que nadie se enterara. Ahora siguen hasta el final, y\nsi algo las corta se dice en pantalla.\n\nEl asistente de montaje deja de contradecirse. La version del modpack ya no\npisa la de Minecraft que habias elegido. El resumen final dice tambien, en la\nrama sin mods, que se acepta en tu nombre la licencia de Mojang. El aviso de\nmemoria ya no describe una cifra distinta de la que tienes delante. Con el\nenlace de un modpack pegado sale su nombre y no la direccion entera. Y cuando\nel analisis de la red no puede medir algo, se pinta en ambar y no con el rojo\nde lo que no se puede hacer.",
+    "version":  "1.2.0",
+    "nucleo_min":  "0.91.0",
+    "hecha_ms":  1786498077432,
+    "notas":  "Nueva pantalla en la seccion de Mods: el actualizador. Te dice, mod por mod,\ncual esta en su ultima version y cual tiene una nueva publicada, con la fecha\nen que salio.\n\nLo importante es lo que hay debajo de esa lista, y esta a la vista a\nproposito: los mods que Modrinth no conoce (los de CurseForge, los privados,\nlos compilados a mano) y los que no se pudieron mirar, contados y con el\nmotivo escrito. Un actualizador que solo ensena lo que encontro deja creer que\nel resto esta al dia, y eso es justo lo que no vas a leer aqui: \"no lo pude\nmirar\" nunca se cuenta como \"esta bien\".\n\nDe momento solo mira. No baja nada ni toca tu carpeta de mods: eso llega en la\nsiguiente. Y mientras trabaja se puede parar, que son cuatrocientos y pico\narchivos y dos rondas de consultas.",
     "archivos":  {
                      "assets/familjen-grotesk-latin-400-normal-DOvmqNol.woff2":  "3d6a8c01c6c02ddf0978cba8290f58bd44cec83cc6e22af4b906238313073a45",
                      "assets/familjen-grotesk-latin-400-normal-DYohiwGD.woff":  "5e5ac6617f255932c0e842465960cd8d10531258fe1e6a09ca55fc705a664f69",
@@ -14,8 +14,8 @@
                      "assets/familjen-grotesk-latin-ext-400-normal-uP2AiLOF.woff":  "51a331f5eddc72bddc89cba7e1525a60ce072d1730e24cfecccbb0ba58ee2787",
                      "assets/familjen-grotesk-latin-ext-600-normal-Bm1Bk2lg.woff":  "fc5459bb59ef26376f75766f02682e9a33fb284de1431f4130e0dfe9c85b7bdb",
                      "assets/familjen-grotesk-latin-ext-600-normal-K2kKrvU3.woff2":  "5585819b723734cc75b8fbb85d26e065eadcd8b4ca5d6cec47a8c724e75e279f",
-                     "assets/index-C1WXXIw1.js":  "0f2a57b71965c5426f0b762b94d2ee933a1d1253ace67c65ba0dc03afe84fc50",
-                     "assets/index-CBHIFn-j.css":  "ff19214c174cd43d25def1492f9cf23b621256b1c595b6a7b55a8c1621b8bbef",
+                     "assets/index-DB6jP4Kk.js":  "9d11192d85fb67bdf753c7f50c9cf1f3100b940f74a651f4f7660a19b7aa02a6",
+                     "assets/index-S5rkk1HI.css":  "769835b9d383566e785eba1cac9db15214fd049fdee74eca47d258b6051f3fce",
                      "assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff":  "658b9ee07b0249cf910a8d6f3d812d46c962bae81d7379a0355b1db35c61586f",
                      "assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2":  "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
                      "assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2":  "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
@@ -24,7 +24,7 @@
                      "assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff":  "5e7319f25a5ef89d2c01c323029ef0bedefad204108e601455ff6f8ae12ca3ff",
                      "assets/jetbrains-mono-latin-ext-400-normal-Bc8Ftmh3.woff2":  "505dfba8ecbe77e82765f36d317ed7ef4ac42719dc5f4ae68d1c483fd22d0d14",
                      "assets/jetbrains-mono-latin-ext-400-normal-fXTG6kC5.woff":  "e7131bbf591e1ed9b74e44e162f6a39affa00ac21654cb683585d085733f6355",
-                     "assets/window-D2IivNiB.js":  "e598f79b77976e8951af0e7c90dc189322e1eda3347cfcb4ce55765c6397aefb",
-                     "index.html":  "3ab6b213ebb8febe292aaf8696d8b6ef2e4c72e06944ad65b7b8fe0e171b5a42"
+                     "assets/window-BS8D0KjT.js":  "8811f9c7806851a99a2409b9f1a295eab4888e87800ff432ea8019ca8c962e96",
+                     "index.html":  "795621af97d261e3d5f9bcbf128d42803a9d47d61cedfd5be2c9f048ba0d5b04"
                  }
 }
