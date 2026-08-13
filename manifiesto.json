@@ -1,8 +1,8 @@
 {
-    "version":  "1.3.0",
-    "nucleo_min":  "0.92.0",
-    "hecha_ms":  1786542759596,
-    "notas":  "El actualizador de mods ya actualiza. Eliges cuales, Obsidiant baja los jars\nnuevos, los abre de verdad y te ensena que cambiaria ANTES de tocar nada: en\nrojo las pegas que aparecerian, en verde las que se arreglan. Con eso decides\ntu.\n\nY se puede deshacer en un clic. El boton sigue ahi despues de cerrar la\naplicacion, y no caduca: hasta que digas que te quedas con lo nuevo.\n\nCon el servidor en marcha no se toca nada, y se dice antes de pulsar, no\ndespues.\n\nLo que la pantalla no puede comprobar tambien lo dice. Si no se sabe que\nversion de NeoForge tienes montada, no vas a leer \"esto no cambia nada\": vas a\nleer que eso no lo ha mirado. Y cuando una libreria sube de version mayor te\navisa con letras de cuantos mods dependen de ella sin decir que version\naguantan, que es la forma mas habitual de que un servidor deje de arrancar\ndespues de actualizar.",
+    "version":  "1.4.0",
+    "nucleo_min":  "0.93.0",
+    "hecha_ms":  1786588410680,
+    "notas":  "Pantalla nueva en Ajustes, debajo del sueno ligero: lo que te cuesta tener el\nservidor encendido.\n\nTe dice las horas que ha estado encendido este mes —esas si estan medidas, salen\nde cuando arranco y cuando paro— y, en cuanto le pongas el precio del kWh de tu\nfactura, lo que valen. Sin ese precio no vas a ver ni un euro, porque cualquier\nprecio que me inventara seria mentira: cambia por pais, por compania y por\ntramo horario.\n\nY te dice lo que te ha ahorrado el sueno ligero, que lleva meses apagando el\nservidor vacio sin que nadie pudiera ver nunca lo que valia.\n\nLo que no puede saber, lo dice. Los vatios son una estimacion —ningun programa\npuede medir lo que consume tu ordenador desde dentro— y la pantalla explica de\nque esta hecha y te deja poner la cifra de verdad si tienes un medidor. Si hubo\nhoras que no se pudieron contar, salen aparte con su motivo, nunca sumadas.",
     "archivos":  {
                      "assets/familjen-grotesk-latin-400-normal-DOvmqNol.woff2":  "3d6a8c01c6c02ddf0978cba8290f58bd44cec83cc6e22af4b906238313073a45",
                      "assets/familjen-grotesk-latin-400-normal-DYohiwGD.woff":  "5e5ac6617f255932c0e842465960cd8d10531258fe1e6a09ca55fc705a664f69",
@@ -14,8 +14,8 @@
                      "assets/familjen-grotesk-latin-ext-400-normal-uP2AiLOF.woff":  "51a331f5eddc72bddc89cba7e1525a60ce072d1730e24cfecccbb0ba58ee2787",
                      "assets/familjen-grotesk-latin-ext-600-normal-Bm1Bk2lg.woff":  "fc5459bb59ef26376f75766f02682e9a33fb284de1431f4130e0dfe9c85b7bdb",
                      "assets/familjen-grotesk-latin-ext-600-normal-K2kKrvU3.woff2":  "5585819b723734cc75b8fbb85d26e065eadcd8b4ca5d6cec47a8c724e75e279f",
-                     "assets/index-DKXI7DZ9.js":  "38c7d8ac675fa6ab2ac4fa1b28cedf0753c9ea34f7590b10e5915c90ff3e625b",
-                     "assets/index-DTEJP4_6.css":  "156be1dde731da6d9f7b3b25c0898315dc7f549d7fa1c1cf7946c26748e87f3b",
+                     "assets/index-1oXkcfrV.css":  "fcfb07a93559cdede581d612bd9247a583eda3ccdab1fe8f5b4aa12120d2ea28",
+                     "assets/index-Cm3Sd8kf.js":  "5026facbabaa055a8d0ac9b3701c28cb7e1ebc6f25c0f1596cb87816653454e0",
                      "assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff":  "658b9ee07b0249cf910a8d6f3d812d46c962bae81d7379a0355b1db35c61586f",
                      "assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2":  "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
                      "assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2":  "cb182feeed4d798ff6961d3c79f7026279448fca0676438aaecb21f3fc39553a",
@@ -24,7 +24,7 @@
                      "assets/jetbrains-mono-latin-700-normal-D3wTyLJW.woff":  "5e7319f25a5ef89d2c01c323029ef0bedefad204108e601455ff6f8ae12ca3ff",
                      "assets/jetbrains-mono-latin-ext-400-normal-Bc8Ftmh3.woff2":  "505dfba8ecbe77e82765f36d317ed7ef4ac42719dc5f4ae68d1c483fd22d0d14",
                      "assets/jetbrains-mono-latin-ext-400-normal-fXTG6kC5.woff":  "e7131bbf591e1ed9b74e44e162f6a39affa00ac21654cb683585d085733f6355",
-                     "assets/window-BbfqwemP.js":  "c739a1e516645aac16254c7d6197505819fe55c33558fe356658015cd177e674",
-                     "index.html":  "98419eed2e4c227eae0d74b1ec4090216a02455884870fb1206e5f59564dc3c0"
+                     "assets/window-CTLe-KkU.js":  "b3db453103a0d2b45a97f9d8cdd8281e7a0f4e7219cd287c57ef0459693b9a91",
+                     "index.html":  "45a0094c876ba1aef0336768779bd060cc84abb21a3eab8abfd0c35b63fdc885"
                  }
 }

@@ -1,7 +1,7 @@
 {
-    "version":  "0.92.0",
-    "archivo":  "Obsidiant_0.92.0_x64-setup.exe",
-    "sha256":  "e98cfc803184c17369320cc053741085423e5a70cdb82dbecae443a0ff71a5e5",
-    "bytes":  5562216,
-    "notas":  "Obsidiant ya sabe sustituir un mod por su version nueva sin perder nada.\n\nNada se borra: el jar viejo se mueve a mods_retirados, nunca se elimina. Antes\nde tocar un solo archivo se apunta en disco que se va a hacer, y si eso no se\npuede escribir, no se empieza. Si algo falla a mitad, se devuelve todo lo que\nya se habia cambiado y la carpeta queda exactamente como estaba.\n\nForgie ahora comprueba tres cosas que antes no miraba, y las tres son motivos\nreales de que un servidor no arranque: la version que pide cada mod de sus\ndependencias (no solo si estan o no), las dependencias declaradas opcionales\ncon rango (el cargador si las exige cuando el mod esta puesto), y la version\ndel cargador que pide cada mod, que es la causa numero uno.\n\nY cuando no puede comprobar algo, lo dice en vez de callarse. Un mod cuya\nversion no se deja comparar ya no se cuenta como arreglado ni como roto: se\ndice que no se sabe."
+    "version":  "0.93.0",
+    "archivo":  "Obsidiant_0.93.0_x64-setup.exe",
+    "sha256":  "8c287cc06bbed293c2d190fd3c134f4a66066b3964fbe46dbf0aba48acfea27f",
+    "bytes":  5596023,
+    "notas":  "Obsidiant lleva ahora un libro de las horas que el servidor estuvo encendido:\nse apunta al arrancar, se refresca cada minuto mientras corre y se cierra al\nparar.\n\nLo importante es lo que hace cuando algo sale mal. Si la aplicacion se cierra de\ngolpe, el tramo queda abierto, y un tramo abierto NO vale hasta ahora: vale\nhasta el ultimo latido que se llego a escribir, y lo que va de ahi al final de\nverdad se apunta como horas que no se pudieron contar. Contarlas seria convertir\nun corte de luz de tres dias en una factura de tres dias.\n\nCon la misma disciplina: el ahorro del sueno ligero solo se cuenta si hay con\nque compararlo —hacen falta al menos tres paradas tuyas a mano para saber cuanto\nlo sueles dejar encendido—, dos tramos que se pisen no cuentan las mismas horas\ndos veces aunque el reloj del equipo se haya movido, y si tienes dos ventanas de\nObsidiant abiertas ya no se borran las horas la una a la otra."
 }
