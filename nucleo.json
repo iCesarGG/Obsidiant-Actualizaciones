@@ -1,7 +1,7 @@
 {
-    "version":  "0.93.0",
-    "archivo":  "Obsidiant_0.93.0_x64-setup.exe",
-    "sha256":  "8c287cc06bbed293c2d190fd3c134f4a66066b3964fbe46dbf0aba48acfea27f",
-    "bytes":  5596023,
-    "notas":  "Obsidiant lleva ahora un libro de las horas que el servidor estuvo encendido:\nse apunta al arrancar, se refresca cada minuto mientras corre y se cierra al\nparar.\n\nLo importante es lo que hace cuando algo sale mal. Si la aplicacion se cierra de\ngolpe, el tramo queda abierto, y un tramo abierto NO vale hasta ahora: vale\nhasta el ultimo latido que se llego a escribir, y lo que va de ahi al final de\nverdad se apunta como horas que no se pudieron contar. Contarlas seria convertir\nun corte de luz de tres dias en una factura de tres dias.\n\nCon la misma disciplina: el ahorro del sueno ligero solo se cuenta si hay con\nque compararlo —hacen falta al menos tres paradas tuyas a mano para saber cuanto\nlo sueles dejar encendido—, dos tramos que se pisen no cuentan las mismas horas\ndos veces aunque el reloj del equipo se haya movido, y si tienes dos ventanas de\nObsidiant abiertas ya no se borran las horas la una a la otra."
+    "version":  "0.94.0",
+    "archivo":  "Obsidiant_0.94.0_x64-setup.exe",
+    "sha256":  "dc23b69aa7a8e5fa20aad04a64a205771f895f2660b1feb4358f9456ab49b246",
+    "bytes":  5665263,
+    "notas":  "Alrededor de cada senal que de verdad cuenta se guarda medio minuto de registro\nantes y medio despues. Si el servidor se para o Obsidiant se cierra en ese rato,\nel recorte se guarda diciendo que le falta el final, en vez de fingir estar\nentero. Y si un mod ruidoso llena el recorte, dice cuantas lineas se quedaron\nfuera.\n\nEl ritmo de mineria se mide entre dos fotos de las estadisticas y por horas\njugadas, no por horas de reloj. A quien no se le pudo medir se le nombra igual\n—una lista con gente que falta se lee como la lista de todos—, y con menos de\ntres jugadores medidos no se dice que es lo corriente aqui: con dos, lo\ncorriente acababa siendo el numero del mas rapido.\n\nDebajo hay tres vueltas de refutacion y veinticuatro fallos tapados, casi todos\ndel mismo sitio: que borrar un recorte sea verdad siempre y que el aviso de\ncuanto chat lleva cuente bien. Perdonar a alguien ya no vuelve a escribir su\nrecorte medio minuto despues; los recortes de quien ya no esta en la lista, los\nde un servidor olvidado y hasta los que no se dejan leer tienen boton; y los\nsusurros cuentan como chat mientras que las lineas de los plugins ya no."
 }
