@@ -1,8 +1,8 @@
 {
-  "version": "0.95.56",
-  "archivo": "Obsidiant_0.95.56_x64-setup.exe",
-  "sha256": "4e3ac489350a9297d2daba0b66eed5e9ecd1ed74c39bebfc55dac1626020d556",
-  "bytes": 8745405,
-  "notas": "Candidata 0.95.56 / interfaz 1.6.58.\n\nPublicación automática desde GitHub con comprobaciones completas, firma mediante los secretos configurados y cotejo de los bytes públicos antes de anunciar la versión disponible.\n\nLa huella de cliente y servidor vuelve a enumerar y comparar el contenido después del último aviso; rechaza archivos nuevos y cambios que conservan tamaño y fecha. Revalidación final del paquete .mrpack sin modificarlo.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "3221ea9dcf24b9ccb269237093d92b972ea99f0b53db82f5101908c4adaab290"
+  "version": "0.95.57",
+  "archivo": "Obsidiant_0.95.57_x64-setup.exe",
+  "sha256": "05eb1820d11686e56bce5ad837045d65a1322afb29c18a6ebfbed52960394269",
+  "bytes": 8795934,
+  "notas": "Candidata 0.95.57 / interfaz 1.6.61.\n\nForja volumétrica, End con portal/islas/partículas y Sculk con vetas/sensores. Selector separado del tema, muestra quieta, intensidad 0–100%, guardado atómico y recuperación de preferencias antiguas. Pausa por foco/visibilidad, reloj único, alternativa 2D y repintado quieto; siete temas conservan140 combinaciones opacas comprobadas.\n\nRAM exacta en MB con barra sincronizada y botones512 MB; presupuesto/fecha del núcleo y límites explícitos. Corregida discrepancia 8705/8704 MB. Ficha de procedencia distingue metadatos y verificación; conserva cliente/servidor.\n\nFicha de próxima partida, bases cliente/servidor separadas, fuentes/fechas y copias sin inventar origen automático. Guía cliente con etapas, ayuda y copia manual. Discrepancias actuales/históricas con motivos/tamaños/huellas y búsqueda. Corregidos bloqueo de escucha, suspensión de cabina y rechazo de bases nativas desconocidas.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "4f058c83a6b9da0b290066d3bbfabca2733b74324d7a85e651b0b59ecac62e65"
 }
