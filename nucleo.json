@@ -1,8 +1,8 @@
 {
-  "version": "0.95.58",
-  "archivo": "Obsidiant_0.95.58_x64-setup.exe",
-  "sha256": "2c8e88de5595b232e8f54d5207fa56c962385b02bdadb7b2070d537f93d9fe3d",
-  "bytes": 8848816,
-  "notas": "Candidata 0.95.58 / interfaz 1.6.63.\n\nBorradores y desplazamiento por servidor para Portada, Consola, Jugadores y dirección manual. Revisiones locales de copias, recuperación, entrega, reparación, invitación y acceso remoto con foco/Escape contextual y consentimiento consumido. Actualización de mods ligada a consulta, servidor y revisión nativa: respuestas viejas no sustituyen planes nuevos y cada aplicación tiene reserva y consumo único. La matriz inventariada incluye Prism, coordinación, perfiles y moderación/recortes; los ensayos reales permanecen en V8.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "be80a71c9ac6fa009173de2dad05b04a709779bf045f03b59cb68b9b61934c19"
+  "version": "0.95.59",
+  "archivo": "Obsidiant_0.95.59_x64-setup.exe",
+  "sha256": "3f5604cd56b27f5888223817470f5730e75a614bb97ac9b896a940c8571b881e",
+  "bytes": 8844247,
+  "notas": "Candidata 0.95.59 / interfaz 1.6.64.\n\nContexto original, medición real por etapa, cancelación clara y éxito sin retirar la guía. Selector compartido de scripts al adjuntar.\n\nReferencia/fecha/paquete exacto y próximos pasos por archivo; desconocidos explícitos.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "8ba669167dd2b713610586a779b06e83a258b00ea6e4b04840d2d4672bf03880"
 }
