@@ -1,8 +1,8 @@
 {
-  "version": "0.95.57",
-  "archivo": "Obsidiant_0.95.57_x64-setup.exe",
-  "sha256": "05eb1820d11686e56bce5ad837045d65a1322afb29c18a6ebfbed52960394269",
-  "bytes": 8795934,
-  "notas": "Candidata 0.95.57 / interfaz 1.6.61.\n\nForja volumétrica, End con portal/islas/partículas y Sculk con vetas/sensores. Selector separado del tema, muestra quieta, intensidad 0–100%, guardado atómico y recuperación de preferencias antiguas. Pausa por foco/visibilidad, reloj único, alternativa 2D y repintado quieto; siete temas conservan140 combinaciones opacas comprobadas.\n\nRAM exacta en MB con barra sincronizada y botones512 MB; presupuesto/fecha del núcleo y límites explícitos. Corregida discrepancia 8705/8704 MB. Ficha de procedencia distingue metadatos y verificación; conserva cliente/servidor.\n\nFicha de próxima partida, bases cliente/servidor separadas, fuentes/fechas y copias sin inventar origen automático. Guía cliente con etapas, ayuda y copia manual. Discrepancias actuales/históricas con motivos/tamaños/huellas y búsqueda. Corregidos bloqueo de escucha, suspensión de cabina y rechazo de bases nativas desconocidas.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "4f058c83a6b9da0b290066d3bbfabca2733b74324d7a85e651b0b59ecac62e65"
+  "version": "0.95.58",
+  "archivo": "Obsidiant_0.95.58_x64-setup.exe",
+  "sha256": "2c8e88de5595b232e8f54d5207fa56c962385b02bdadb7b2070d537f93d9fe3d",
+  "bytes": 8848816,
+  "notas": "Candidata 0.95.58 / interfaz 1.6.63.\n\nBorradores y desplazamiento por servidor para Portada, Consola, Jugadores y dirección manual. Revisiones locales de copias, recuperación, entrega, reparación, invitación y acceso remoto con foco/Escape contextual y consentimiento consumido. Actualización de mods ligada a consulta, servidor y revisión nativa: respuestas viejas no sustituyen planes nuevos y cada aplicación tiene reserva y consumo único. La matriz inventariada incluye Prism, coordinación, perfiles y moderación/recortes; los ensayos reales permanecen en V8.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "be80a71c9ac6fa009173de2dad05b04a709779bf045f03b59cb68b9b61934c19"
 }
