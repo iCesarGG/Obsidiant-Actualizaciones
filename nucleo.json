@@ -1,8 +1,8 @@
 {
-  "version": "0.95.60",
-  "archivo": "Obsidiant_0.95.60_x64-setup.exe",
-  "sha256": "11e0a1124a8755bee55234dfa8c3461bac4105986aea5f3cf856f8fc04ba248e",
-  "bytes": 8938049,
-  "notas": "Candidata 0.95.60 / interfaz 1.6.65.\n\nDiagnóstico estático compuesto y guards IO/privacidad/UTF-8; lectura worker e interfaz sobre ruta elegida. Sin ejecución ni adopción implícita.\n\nMatriz histórica persistente con atribución manual exacta y pasos nativos por fila; metadata semántica/solución específica pendientes.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "16bd6f4410087a3b90026d14e4ef319d373f8f7d3a4840aa4c5472c1abd06140"
+  "version": "0.95.61",
+  "archivo": "Obsidiant_0.95.61_x64-setup.exe",
+  "sha256": "fe0e33088229270fef2776f3b4047bb31a15e38e96aebbd6e07b36202d0dabb1",
+  "bytes": 9019527,
+  "notas": "Candidata 0.95.61 / interfaz 1.6.66.\n\nNúcleo y puente nativo de revisión estructurada de caché preparada: origen exacto, huellas, tamaño, Java con procedencia y límites. La UI/preparación visible y conjunto efectivo de JAR/dependencias antes del instalador siguen pendientes; no se reemplaza la revisión actual ni se autoriza Crear.\n\nLectura adicional verificable de metadata de 1–50 JAR elegidos de una constancia ID/SHA exacta, carpeta cliente reelegida y consentimiento. Puente, DTO estricto y panel por participante integrados; todas las identidades/versiones/cobertura se muestran con sus límites. Resultado separado de la matriz histórica, sin migración silenciosa ni reparación.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "0592d71b584d9cea2d84d04b982ac9052c8c0f90ea6cc3995ba91ca671d6b59c"
 }
