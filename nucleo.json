@@ -1,8 +1,8 @@
 {
-  "version": "0.95.62",
-  "archivo": "Obsidiant_0.95.62_x64-setup.exe",
-  "sha256": "8f04be567ef6a8b75e046eb587d8d67422e449a2cd5ce375eab8361eaf0666ca",
-  "bytes": 9068833,
-  "notas": "Candidata 0.95.62 / interfaz 1.6.67.\n\nPreparación explícita, cancelable y con reuso de caché cotejada en el asistente real; revisión estructurada de origen, versión interna/catálogo, cargador, Java, huellas, bytes y alcance cliente/servidor antes de Crear. Identidad canónica de Modrinth y reserva del anfitrión hasta cierre del trabajador y acuse.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "0993ba82f7e88a8b33b12cf0d2f9706b9fe3c8258c40f2a8cc8ed534dc4c93b6"
+  "version": "0.95.63",
+  "archivo": "Obsidiant_0.95.63_x64-setup.exe",
+  "sha256": "51f6624f0de2876a6696f1bf842c772f8839d2afb8c20f130ccb0982fbe1722f",
+  "bytes": 9063128,
+  "notas": "Candidata 0.95.63 / interfaz 1.6.69.\n\nConjunto efectivo con precedencia de overrides, huellas y descriptores leídos; cobertura remota o desconocida explícita. Montaje de catálogo, ZIP oficial y exportación local del Taller revisan contenido y dependencias antes de ejecutar el cargador, con etapa propia y cancelación.\n\nSoluciones nativas por archivo y participante en todas las páginas de la matriz; revisión conjunta enlazada a constancias, paquete y objetivo exactos. Versiones y restricciones adicionales conservan fuentes, cobertura y selección explícita, sin reparación automática.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "0253262042d3bdcffe7a804fcbbafe659fc8c21bf0d1791257581674db6de03c"
 }
