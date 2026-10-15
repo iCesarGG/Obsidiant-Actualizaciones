@@ -1,8 +1,8 @@
 {
-  "version": "0.95.59",
-  "archivo": "Obsidiant_0.95.59_x64-setup.exe",
-  "sha256": "3f5604cd56b27f5888223817470f5730e75a614bb97ac9b896a940c8571b881e",
-  "bytes": 8844247,
-  "notas": "Candidata 0.95.59 / interfaz 1.6.64.\n\nContexto original, medición real por etapa, cancelación clara y éxito sin retirar la guía. Selector compartido de scripts al adjuntar.\n\nReferencia/fecha/paquete exacto y próximos pasos por archivo; desconocidos explícitos.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "8ba669167dd2b713610586a779b06e83a258b00ea6e4b04840d2d4672bf03880"
+  "version": "0.95.60",
+  "archivo": "Obsidiant_0.95.60_x64-setup.exe",
+  "sha256": "11e0a1124a8755bee55234dfa8c3461bac4105986aea5f3cf856f8fc04ba248e",
+  "bytes": 8938049,
+  "notas": "Candidata 0.95.60 / interfaz 1.6.65.\n\nDiagnóstico estático compuesto y guards IO/privacidad/UTF-8; lectura worker e interfaz sobre ruta elegida. Sin ejecución ni adopción implícita.\n\nMatriz histórica persistente con atribución manual exacta y pasos nativos por fila; metadata semántica/solución específica pendientes.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "16bd6f4410087a3b90026d14e4ef319d373f8f7d3a4840aa4c5472c1abd06140"
 }
