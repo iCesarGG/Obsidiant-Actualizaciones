@@ -1,8 +1,8 @@
 {
-  "version": "0.95.63",
-  "archivo": "Obsidiant_0.95.63_x64-setup.exe",
-  "sha256": "51f6624f0de2876a6696f1bf842c772f8839d2afb8c20f130ccb0982fbe1722f",
-  "bytes": 9063128,
-  "notas": "Candidata 0.95.63 / interfaz 1.6.69.\n\nConjunto efectivo con precedencia de overrides, huellas y descriptores leídos; cobertura remota o desconocida explícita. Montaje de catálogo, ZIP oficial y exportación local del Taller revisan contenido y dependencias antes de ejecutar el cargador, con etapa propia y cancelación.\n\nSoluciones nativas por archivo y participante en todas las páginas de la matriz; revisión conjunta enlazada a constancias, paquete y objetivo exactos. Versiones y restricciones adicionales conservan fuentes, cobertura y selección explícita, sin reparación automática.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "0253262042d3bdcffe7a804fcbbafe659fc8c21bf0d1791257581674db6de03c"
+  "version": "0.95.64",
+  "archivo": "Obsidiant_0.95.64_x64-setup.exe",
+  "sha256": "9c830589f892ece2945eadea894430e8f0087fbaec5cdf1cfa816729fc061465",
+  "bytes": 9181491,
+  "notas": "Candidata 0.95.64 / interfaz 1.6.70.\n\nFicha previa del Taller local con exportación y borrador acreditados por el núcleo, huellas SHA-256/SHA-1, versión interna, base y cargador exactos, Java con procedencia y cobertura cliente/servidor. Comparte el lector del catálogo; exige un permiso nuevo por lectura y mantiene los JAR remotos pendientes. Cancelar conserva la preparación y exportación anteriores; crear exige una ficha vigente, además de los controles nativos del montaje.\n\nPróxima partida reúne en una lectura explícita el pack exacto, archivo cliente, programación, inventario de ZIP, rescates, instantáneas y cápsulas, más el último sondeo contextual de esta sesión. Fecha, procedencia, caducidad nativa, cobertura y acción por pendiente visibles. Revalida configuración, almacenes y sondeo al cerrar; rechaza respuestas tardías o mezcladas. Historial paginado y cobertura ilegible separada de vacía.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "a895bb6166692e440ccce034258f6e45752ebbe619511371504479308e8ae4cb"
 }
