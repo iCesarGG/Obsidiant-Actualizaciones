@@ -1,8 +1,8 @@
 {
-  "version": "0.95.64",
-  "archivo": "Obsidiant_0.95.64_x64-setup.exe",
-  "sha256": "9c830589f892ece2945eadea894430e8f0087fbaec5cdf1cfa816729fc061465",
-  "bytes": 9181491,
-  "notas": "Candidata 0.95.64 / interfaz 1.6.70.\n\nFicha previa del Taller local con exportación y borrador acreditados por el núcleo, huellas SHA-256/SHA-1, versión interna, base y cargador exactos, Java con procedencia y cobertura cliente/servidor. Comparte el lector del catálogo; exige un permiso nuevo por lectura y mantiene los JAR remotos pendientes. Cancelar conserva la preparación y exportación anteriores; crear exige una ficha vigente, además de los controles nativos del montaje.\n\nPróxima partida reúne en una lectura explícita el pack exacto, archivo cliente, programación, inventario de ZIP, rescates, instantáneas y cápsulas, más el último sondeo contextual de esta sesión. Fecha, procedencia, caducidad nativa, cobertura y acción por pendiente visibles. Revalida configuración, almacenes y sondeo al cerrar; rechaza respuestas tardías o mezcladas. Historial paginado y cobertura ilegible separada de vacía.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "a895bb6166692e440ccce034258f6e45752ebbe619511371504479308e8ae4cb"
+  "version": "0.95.65",
+  "archivo": "Obsidiant_0.95.65_x64-setup.exe",
+  "sha256": "1e9dd2c7aeccb81858cda5779763ea7a609520da53cceab322c7ecd72399c7f5",
+  "bytes": 9237644,
+  "notas": "Candidata 0.95.65 / interfaz 1.6.71.\n\nTaller compara el borrador guardado con la selección visible, incluidas base, versiones, entornos, huellas declaradas y dependencias. La ficha de entrega relee el .mrpack y su índice, reúne base exacta, Java orientativo local, reparto cliente/servidor y límites de distribución. Comparar o cancelar conserva el trabajo visible. Taller y entrega comparten la política de rutas y extensiones de ajustes, conservando scripts de KubeJS admitidos.\n\nInvitación principal y coordinada muestran QR de una dirección Java tras revisión explícita y revalidación nativa. El QR contiene únicamente la dirección; no agrega credenciales, rutas locales ni controles de administración. La copia se confirma después de resolver el portapapeles. La revisión local caduca: ocultar el dibujo no revoca la dirección ni las copias compartidas.\n\nContinuidad de la partida reúne perfil conservado, método, puerto, fecha y cinco pasos manuales tras reinicio o desconexión. La app y el kit comparten el procedimiento. Las guías nuevas preservan el contrato estricto con sus consumidores y las guías anteriores mantienen su formato. Leer o navegar a la consola no inicia el servidor ni acredita conexión real.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "960e7d0f7ca31d728d9b38f008aa7a32e398d78b59a8932b61466ff6165a1f81"
 }
