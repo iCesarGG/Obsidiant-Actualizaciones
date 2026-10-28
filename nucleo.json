@@ -1,8 +1,8 @@
 {
-  "version": "0.95.68",
-  "archivo": "Obsidiant_0.95.68_x64-setup.exe",
-  "sha256": "212610fa742439dfd3a162b6101b66041524686bf8324e2d8462e22bb1c59de0",
-  "bytes": 9341773,
-  "notas": "Candidata 0.95.68 / interfaz 1.6.77.\n\nPerfiles con búsqueda completa y páginas fijas; fichas50 más contexto, tareas50 e informe minero50 nombres por sección. Consultas compartidas, pausa visible y respuesta fresca tras navegar.\n\nReservas entre remontes en Seguridad, Programador, Luz, Discos, Caídas, Personalizar, Mapa, Rastreador, Minería y Bedrock. Borradores conservados y respuestas A/B/A retiradas.\n\nConserva diagnóstico durante E/S y exige recuperación revisada tras fallo de reparto o cierre. No repite el veredicto anterior ni reemplaza la búsqueda de otro servidor.\n\nMinería y Bedrock trabajan sobre la raíz capturada y su reserva. Fallo al guardar foto o leer configuración se explica; no se anuncia Hecho ni un puerto inventado.\n\nVite6.4.4, Vitest4.1.12 y transitivas corregidas; la consulta npm del lock devuelve cero alertas. No equivale a certificar seguridad completa.\n\nBotón único con reserva hasta acuse entre vistas, dirección del canal visible y notas de la publicación consultada, también al estar al día. Un fallo distingue la consulta anterior.\n\nGuía de soporte vinculada a las acciones y revisiones existentes; entrega y devolución explícitas. Ensayos instalados, amigos, redes y rendimiento físico continúan en V8.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "d3eff93c0b234807d6dc48ffbb61fbbdd44daa4a067789de9e909cf7e3ae9063"
+  "version": "0.95.69",
+  "archivo": "Obsidiant_0.95.69_x64-setup.exe",
+  "sha256": "b44bb2cd8d64ca0990a38f8b9fc1c91a5fd98db1e9b413750ed61252bc38c138",
+  "bytes": 9336186,
+  "notas": "Candidata 0.95.69 / interfaz 1.6.79.\n\nCada paso exige carpeta, selección e identidad del proceso. La reserva persiste hasta el acuse; se pueden cancelar los pasos futuros. Una escritura lenta conserva destino sin retener el mutex global de actividad.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "ca94ae2ec2b9d045a2411c3f0ae1dac17b898462a5652ea2caae222d30da468c"
 }
