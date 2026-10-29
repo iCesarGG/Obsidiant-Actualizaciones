@@ -1,8 +1,8 @@
 {
-  "version": "0.95.70",
-  "archivo": "Obsidiant_0.95.70_x64-setup.exe",
-  "sha256": "841d53e54dd39cbb6923e8a55439585d41adeafbb665462457fff4455df71672",
-  "bytes": 9419855,
-  "notas": "Candidata 0.95.70 / interfaz 1.6.81.\n\nEl programador exige guardar la reserva antes de actuar, conserva estados consultables y comunica fallos o resultados inciertos. Las tareas pausadas conservan contraste y el horario global declara su alcance.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "4793b5fe183c53100532f57227219b03ffd7540f91302d656a2786b813f96a1c"
+  "version": "0.95.71",
+  "archivo": "Obsidiant_0.95.71_x64-setup.exe",
+  "sha256": "1c96811b6329a725a174724d05b3e4d563dde93ec6e5952eb7f9be84f243ff4b",
+  "bytes": 9520408,
+  "notas": "Candidata 0.95.71 / interfaz 1.6.82.\n\nCopia temprana y acuse perdido acreditados por adaptadores compartidos; revisión y respaldo para vincular horarios a un servidor, primera asociación pausada y comprobación física del destino antes de actuar.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "e5f05ee4d4fcf67ccc95d8073e3028c62c5be522b62794d0044970c0aee8eab7"
 }
