@@ -1,8 +1,8 @@
 {
-  "version": "1.6.82",
-  "nucleo_min": "0.95.71",
-  "hecha_ms": 1793313669132,
-  "notas": "Candidata 0.95.71 / interfaz 1.6.82.\n\nCopia temprana y acuse perdido acreditados por adaptadores compartidos; revisión y respaldo para vincular horarios a un servidor, primera asociación pausada y comprobación física del destino antes de actuar.\n\nPublicar no acredita certificación estable.",
+  "version": "1.6.83",
+  "nucleo_min": "0.95.72",
+  "hecha_ms": 1793318649296,
+  "notas": "Candidata 0.95.72 / interfaz 1.6.83.\n\nVite6.4.5 y audit de CI que bloquea antes de construir o publicar ante cualquier alerta. Conserva las funciones de71.\n\nPublicar no acredita certificación estable.",
   "archivos": {
     "assets/Actualizador-DZXBoyAX.js": "fe37891294e2a30005b986af5cebc3af429dbe42ff023e3798c4b208ead52ff2",
     "assets/Bedrock-Pu0_lv3i.js": "005199889f595605356514fa02d3fad1b14e37c015133c3b981f51320049305f",
@@ -51,6 +51,6 @@
     "assets/jetbrains-mono-latin-ext-400-normal-fXTG6kC5.woff": "e7131bbf591e1ed9b74e44e162f6a39affa00ac21654cb683585d085733f6355",
     "assets/react-DjB5-EPc.js": "8a12e7f8d1800f5a85d10b99608fc16da30a3117b8ef132aac990d33a4d5da05",
     "assets/textos-h5R5Nt4c.js": "bb8c18b721a03e4a617b03f1541b6d6c9663c7a74796ad50da151ea3ddcd7b1c",
-    "index.html": "4cda7f9be5c76f4d34b4ed4843e883c26f5c1a1a75c243bca62ea8724cc7cef2"
+    "index.html": "1ddc52647a196173121cc753c432f48b4313995442bbb6c54718597ce8b6919f"
   }
 }

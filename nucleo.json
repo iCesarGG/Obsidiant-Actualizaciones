@@ -1,8 +1,8 @@
 {
-  "version": "0.95.71",
-  "archivo": "Obsidiant_0.95.71_x64-setup.exe",
-  "sha256": "1c96811b6329a725a174724d05b3e4d563dde93ec6e5952eb7f9be84f243ff4b",
-  "bytes": 9520408,
-  "notas": "Candidata 0.95.71 / interfaz 1.6.82.\n\nCopia temprana y acuse perdido acreditados por adaptadores compartidos; revisión y respaldo para vincular horarios a un servidor, primera asociación pausada y comprobación física del destino antes de actuar.\n\nPublicar no acredita certificación estable.",
-  "ejecutable_sha256": "e5f05ee4d4fcf67ccc95d8073e3028c62c5be522b62794d0044970c0aee8eab7"
+  "version": "0.95.72",
+  "archivo": "Obsidiant_0.95.72_x64-setup.exe",
+  "sha256": "19aa8febf1815b1201c0e41db5b2afb08eada598564130816dd26a09952a38c6",
+  "bytes": 9532558,
+  "notas": "Candidata 0.95.72 / interfaz 1.6.83.\n\nVite6.4.5 y audit de CI que bloquea antes de construir o publicar ante cualquier alerta. Conserva las funciones de71.\n\nPublicar no acredita certificación estable.",
+  "ejecutable_sha256": "62f021dabf87abc0f484746da1d18e4b0140fce42f4f0031d8b384e6ddd3276c"
 }
